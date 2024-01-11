@@ -1,6 +1,6 @@
 <template>
-    <div class="container">
-        <div class="row">
+    <div class="container0">
+        <div class="row6">
             <p class="lead">
                 Matthew's Portfolio &copy;
                 <span> {{ currYear }} </span>
@@ -20,6 +20,6 @@
     }
 </script>
 
-<style scoped>
+<style>
 
 </style>

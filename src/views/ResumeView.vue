@@ -67,7 +67,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png);
+  /* background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png); */
 }
 
 .container .card {
