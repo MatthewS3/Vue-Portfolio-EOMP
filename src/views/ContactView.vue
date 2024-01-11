@@ -15,9 +15,9 @@
                 <i class="fas fa-map-marked"></i>
               </div>
               <div class="contact-info-text">
-                <h2>address</h2>
-                <span>1215 Lorem Ipsum, Ch 176080 </span>
-                <span>Chandigarh , INDIA</span>
+                <h2>location</h2>
+                <span> 89 Gladiola Road, Lavender Hill </span>
+                <span>Cape Town , South Africa</span>
               </div>
             </div>
           </div>
@@ -29,9 +29,9 @@
                 <i class="fas fa-envelope"></i>
               </div>
               <div class="contact-info-text">
-                <h2>E-mail</h2>
-                <span>info@LoremIpsum.com</span>
-                <span>yourmail@gmail.com</span>
+                <h2>E-mail & Cell</h2>
+                <span>mtthwswain@gmail.com</span>
+                <span>(079) 318 2409 </span>
               </div>
             </div>
           </div>
@@ -43,9 +43,9 @@
                 <i class="fas fa-clock"></i>
               </div>
               <div class="contact-info-text">
-                <h2>office time</h2>
-                <span>Mon - Thu 9:00 am - 4.00 pm</span>
-                <span>Thu - Mon 10.00 pm - 5.00 pm</span>
+                <h2>Avalibilty</h2>
+                <span>Mon - Fri 9:00 am - 5.00 pm</span>
+                <span>Sat & Sun 10.00 pm - 2.00 pm</span>
               </div>
             </div>
           </div>
@@ -69,11 +69,6 @@
                 <div class="col-md-6 col-sm-6 col-xs-12">
                   <div class="single-input-field">
                     <input type="text" placeholder="Phone Number" name="phone" />
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                  <div class="single-input-field">
-                    <input type="text" placeholder="Subject" name="subject" />
                   </div>
                 </div>
                 <div class="col-md-12 message-input">
@@ -116,15 +111,15 @@
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-animation: loader 0.5s 2.2s ease forwards;
-    animation: loader 0.5s 2.2s ease-in forwards;
+    -webkit-animation: loader 0.5s 5s ease forwards;
+    animation: loader 1.5s 5s ease-in forwards;
     z-index: 99;
 }
 
 .progress-bar {
     width: 200px;
     height: 2px;
-    background-color: #666;
+    background-color: black;
     position: relative;
     top: calc(50% - 1px);
     left: calc(50% - 100px);
@@ -137,9 +132,9 @@
     height: 4px;
     position: absolute;
     top: -1px;
-    border-left: 0px solid #ccc;
-    -webkit-animation: progress 2s ease-in-out forwards;
-    animation: progress 2s ease-in-out forwards;
+    border-left: 0px solid Gold;
+    -webkit-animation: progress 6s ease-in-out forwards;
+    animation: progress 5s ease-in-out forwards;
 }
 
 @-webkit-keyframes loader {
@@ -151,11 +146,11 @@
 }
 
 @-webkit-keyframes progress {
-    to {border-left: 200px solid #ccc;}
+    to {border-left: 200px solid Gold;}
 }
 
 @keyframes progress {
-    to {border-left: 200px solid #ccc;}
+    to {border-left: 200px solid Gold;}
 }
 
 /* page loader */
@@ -174,7 +169,8 @@ section {
   margin-bottom: 15px;
 }
 .contact-info-item {
-  background: #071c34;
+  background: gold;
+  border-radius: 50px;
   padding: 103px 0px;
 }
 .contact-page-sec .contact-page-form h2 {
@@ -193,9 +189,9 @@ section {
   height: 110px;
 }
 .contact-page-form.contact-form input[type="submit"] {
-  background: #071c34;
+  background: black;
   width: 150px;
-  border-color: #071c34;
+  border-color: blsck;
 }
 .contact-info-icon i {
   font-size: 48px;
@@ -205,26 +201,26 @@ section {
   margin-bottom: 0px;
 }
 .contact-info-text h2 {
-  color: #fff;
+  color: black;
   font-size: 22px;
   text-transform: capitalize;
   font-weight: 600;
   margin-bottom: 10px;
 }
 .contact-info-text span {
-  color: #999999;
+  color: #222;
   font-size: 16px;
   display: inline-block;
   width: 100%;
 }
 
 .contact-page-form input {
-  background: #f9f9f9 none repeat scroll 0 0;
-  border: 1px solid #f9f9f9;
+  background: #ddd none repeat scroll 0 0;
+  border: 2px solid #111;
   margin-bottom: 20px;
   padding: 12px 16px;
   width: 100%;
-  border-radius: 4px;
+  border-radius: 40px;
 }
 
 .contact-page-form .message-input {
@@ -233,16 +229,16 @@ section {
   padding-left: 0;
 }
 .single-input-field textarea {
-  background: #f9f9f9 none repeat scroll 0 0;
-  border: 1px solid #f9f9f9;
+  background: #ddd none repeat scroll 0 0;
+  border: 2px solid #000;
   width: 100%;
   height: 120px;
   padding: 12px 16px;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 .single-input-fieldsbtn input[type="submit"] {
-  background: #fda40b none repeat scroll 0 0;
-  color: #fff;
+  background: #111 none repeat scroll 0 0;
+  color: gold;
   display: inline-block;
   font-weight: 600;
   padding: 10px 0;
@@ -252,8 +248,9 @@ section {
   font-size: 16px;
 }
 .single-input-fieldsbtn input[type="submit"]:hover {
-  background: #071c34;
-  transition: all 0.4s ease-in-out 0s;
+  background: gold;
+  color: black;
+  transition: all 0.7s ease-in-out 0s;
   border-color: #071c34;
 }
 .single-input-field h4 {

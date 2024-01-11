@@ -67,7 +67,8 @@
 .card-container .cardww {
   flex: 1;
   transition: all 0.3s ease-in-out;
-  background-color: #fff;
+  background-color: #333;
+  color: gold;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
@@ -80,18 +81,18 @@
 }
 .cardww img {
   padding: 35px;
-  width: 70%;
+  width: 220px;
   display: block;
   margin: 0 auto;
 }
 .card-container .cardww:hover,
 .card-container .cardww:focus {
-  transform: translateY(-1rem);
+  transform: translateY(3rem);
   outline: none;
 }
 .card-container .cardww:hover ~ .cardww,
 .card-container .cardww:focus ~ .cardww {
-  transform: translateX(11rem);
+  transform: translateX(10.5rem);
 }
 
 @media (max-width: 767px) {
