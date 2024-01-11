@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <div class="box"></div>
+    <div class="box7"></div>
     <div class="fade-in-text">
       <div class="waviy">
         <span style="--i: 1">M</span>
@@ -57,12 +57,11 @@ export default {
 
 <style scoped>
 #home {
-  min-height: 100vh;
+  height: 550px;
   background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png);
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 .name {
@@ -101,7 +100,7 @@ export default {
   }
 }
 
-.box {
+.box7 {
   height: 400px;
   width: 400px;
   border: 5px solid #3e3e3e;
