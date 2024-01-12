@@ -154,11 +154,6 @@
 }
 
 /* page loader */
-
-section {
-  padding: 10px;
-  height: 950px;
-}
 .contact-info {
   display: inline-block;
   width: 100%;
