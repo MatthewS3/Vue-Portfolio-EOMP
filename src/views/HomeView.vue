@@ -41,7 +41,7 @@
             Developer.
           </p>
         </div>
-        <a href="../views/AboutView.vue">
+        <a href="">
           <button class="btn">Read More</button>
         </a>
       </section>
@@ -103,10 +103,11 @@ export default {
 .box7 {
   height: 400px;
   width: 400px;
-  border: 5px solid #3e3e3e;
-  border-radius: 200px;
+  border: 5px transparent;
+  border-radius: 20px;
+  margin-left: -100px;
   box-shadow: rgba(0, 0, 0, 0.3);
-  background-image: url(https://i.postimg.cc/pVzTvjMY/Screenshot-2024-01-08-150841.png);
+  background-image: url(https://i.postimg.cc/DzpBrj7M/1000025647-removebg-preview-2.png);
   animation-delay: 5s;
   animation: fadeIn 8s;
 }
