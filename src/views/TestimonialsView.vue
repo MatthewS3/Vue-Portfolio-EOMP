@@ -9,13 +9,19 @@
         <label class="tgl-btn" for="card1"><span></span></label>
         <div class="tgl-view">
           <div class="card-image">
-            <img src="https://www.fillmurray.com/g/600/600" alt="murray" />
+            <img
+              src="https://i.postimg.cc/nh7CTq4z/20240110-140911.jpg"
+              alt="veronique"
+            />
           </div>
-          <h2 class="card-title">Veronique</h2>
+          <h2 class="card-title">Veronique Nappie</h2>
           <p class="card-detail">
-            The internet was missing the ability to provide custom-sized placeholder
-            images of Bill Murray. Now it can.<br /><br />Calm:
-            https://fillmurray.com/200/300<br />Gray: https://fillmurray.com/g/200/300
+            Matthew has been a continuous surprise for me. I've gotten to know him a lot
+            better over the past few weeks and I've seen a different side to him. He seems
+            to handle pressure very well and puts a lot of effort into 'getting the job
+            done'. He is incredibly professional and has so much creativity to share. I
+            hope he continues on this path because he has a lot to give and I'd like for
+            everyone to see that.
           </p>
         </div>
       </div>
@@ -43,14 +49,13 @@
         <label class="tgl-btn" for="card3"><span></span></label>
         <div class="tgl-view">
           <div class="card-image">
-            <img src="https://www.stevensegallery.com/g/600/600" alt="seagal" />
+            <img src="https://i.postimg.cc/P59Jvwyt/20231118-123519.jpg" alt="aakeefah" />
           </div>
-          <h2 class="card-title">Aqeefah</h2>
+          <h2 class="card-title">Aakeefah Jones</h2>
           <p class="card-detail">
-            The internet was missing the ability to provide custom-sized placeholder
-            images of Steven Segal. Now it can.<br /><br />Calm:
-            https://stevensegallery.com/200/300<br />Gray:
-            https://stevensegallery.com/g/200/300
+            Matthew is a website wizard! His talent for creating stunning and efficient
+            websites is unmatched. Working with him is a breeze, and the results speak for
+            themselves , highly recommend!
           </p>
         </div>
       </div>
@@ -63,13 +68,20 @@
         <label class="tgl-btn" for="card4"><span></span></label>
         <div class="tgl-view">
           <div class="card-image">
-            <img src="https://www.fillmurray.com/g/600/600" alt="murray" />
+            <img
+              src="https://i.postimg.cc/TPnxZ91y/Clipped-image-20240111-083818-1.png"
+              alt="JNR"
+            />
           </div>
-          <h2 class="card-title">Unity</h2>
+          <h2 class="card-title">Unity Demas</h2>
           <p class="card-detail">
-            The internet was missing the ability to provide custom-sized placeholder
-            images of Bill Murray. Now it can.<br /><br />Calm:
-            https://fillmurray.com/200/300<br />Gray: https://fillmurray.com/g/200/300
+            Matt's like the energizer bunny of hard work and focus - he tackles everything
+            with this contagious enthusiasm that's impossible to ignore. Whether he's
+            grinding away at work or just being an all-around awesome friend, Matt's the
+            guy you want in your corner. His dedication is unmatched, and he's got this
+            knack for turning even mundane tasks into something fun. I'm grateful to have
+            him as a friend; he's the kind of person who makes life way more interesting
+            and a whole lot easier.
           </p>
         </div>
       </div>
@@ -79,15 +91,17 @@
         <label class="tgl-btn" for="card5"><span></span></label>
         <div class="tgl-view">
           <div class="card-image">
-            <img src="https://www.placecage.com/g/600/600" alt="cage" />
+            <img src="https://i.postimg.cc/DwtwX0RT/1000025632.jpg" alt="mr raffels" />
           </div>
-          <h2 class="card-title">Damon</h2>
+          <h2 class="card-title">Damon Raffels</h2>
           <p class="card-detail">
-            I think you've got this figured out by now.<br /><br />Calm:
-            https://www.placecage.com/200/300<br />Gray:
-            https://www.placecage.com/g/200/300<br />CRAZY:
-            https://www.placecage.com/c/200/300<br />GIF:
-            https://www.placecage.com/gif/200/300
+            "Matthew is truly a distinct individual. Reserved, calm while simultaneously
+            being one of the most joyous & fun people you will have the pleasure of
+            meeting and working with. He has unrivaled creativity and curiosity, always
+            furthering his knowledge skills & driving others. He has excellent
+            communication skills and will be an asset to any workforce. His passion and
+            dedication will take him as far as he wants to go. I am truly proud and
+            honored to call him my colleague and most importantly, my close friend
           </p>
         </div>
       </div>
@@ -97,14 +111,20 @@
         <label class="tgl-btn" for="card6"><span></span></label>
         <div class="tgl-view">
           <div class="card-image">
-            <img src="https://www.stevensegallery.com/g/600/600" alt="seagal" />
+            <img src="https://i.postimg.cc/qqTBjGL8/profile-portfolio.jpg" alt="rezaar" />
           </div>
-          <h2 class="card-title">Rezaar</h2>
+          <h2 class="card-title">Rezaar Osman</h2>
           <p class="card-detail">
-            The internet was missing the ability to provide custom-sized placeholder
-            images of Steven Segal. Now it can.<br /><br />Calm:
-            https://stevensegallery.com/200/300<br />Gray:
-            https://stevensegallery.com/g/200/300
+            Matthew's passion for the IT industry shines through in every aspect of his
+            work. His diligence and professional attitude contribute to the creation of
+            flawless end results. Matthew's commitment to maintaining high standards sets
+            him apart, ensuring that his work consistently meets or exceeds expectations.
+            What sets him apart is his drive to be unique in his work environment, always
+            seeking ways to innovate and improve. Beyond his professional attributes,
+            Matthew is a great person to befriend, radiating positive energy and making
+            the work atmosphere enjoyable. In summary, Matthew's combination of passion,
+            diligence, high standards, and friendly demeanor make him a valuable asset to
+            any team.
           </p>
         </div>
       </div>
@@ -117,13 +137,19 @@
         <label class="tgl-btn" for="card7"><span></span></label>
         <div class="tgl-view">
           <div class="card-image">
-            <img src="https://www.fillmurray.com/g/600/600" alt="murray" />
+            <img
+              src="https://i.postimg.cc/fyCMXX8y/IMG-20231225-100757-1.png"
+              alt="Haanim"
+            />
           </div>
-          <h2 class="card-title">haaniem</h2>
+          <h2 class="card-title">Haanim Pietersen</h2>
           <p class="card-detail">
-            The internet was missing the ability to provide custom-sized placeholder
-            images of Bill Murray. Now it can.<br /><br />Calm:
-            https://fillmurray.com/200/300<br />Gray: https://fillmurray.com/g/200/300
+            Matthew is a great web developer who inspires people with his hard work and
+            great personality. He is great at explaining what to do and how to get it
+            done. From the time that I have known him, he has been a great friend and
+            amazing coder, and is always determined to help anyone struggling. I would
+            highly recommend Matthew as someone that is great at coding in all aspects as
+            well as someone that can lead a team responsibly.
           </p>
         </div>
       </div>
@@ -133,15 +159,19 @@
         <label class="tgl-btn" for="card8"><span></span></label>
         <div class="tgl-view">
           <div class="card-image">
-            <img src="https://www.placecage.com/g/600/600" alt="cage" />
+            <img
+              src="https://i.postimg.cc/VvW3Yfbn/Screenshot-2024-01-12-121110.png"
+              alt="brandon"
+            />
           </div>
-          <h2 class="card-title">brandon</h2>
+          <h2 class="card-title">Brandon Roulstone</h2>
           <p class="card-detail">
-            I think you've got this figured out by now.<br /><br />Calm:
-            https://www.placecage.com/200/300<br />Gray:
-            https://www.placecage.com/g/200/300<br />CRAZY:
-            https://www.placecage.com/c/200/300<br />GIF:
-            https://www.placecage.com/gif/200/300
+            Matthew Swain, A creative yet precise person when it comes to his filed of
+            work his passion for web development is clearly shown by his amazing design,
+            working alongside him has been my honor his a disciplined and respectful
+            person and very deadline orientated his work ethic is proven by his unique
+            designs in frontend development, and I am certain he will be a great asset for
+            any company out there.
           </p>
         </div>
       </div>
@@ -151,14 +181,13 @@
         <label class="tgl-btn" for="card9"><span></span></label>
         <div class="tgl-view">
           <div class="card-image">
-            <img src="https://www.stevensegallery.com/g/600/600" alt="seagal" />
+            <img src="https://i.postimg.cc/gj8CBFJJ/20231104-135832.jpg" alt="aneeqa" />
           </div>
-          <h2 class="card-title">aneeqah</h2>
+          <h2 class="card-title">Aneeqa Louw</h2>
           <p class="card-detail">
-            The internet was missing the ability to provide custom-sized placeholder
-            images of Steven Segal. Now it can.<br /><br />Calm:
-            https://stevensegallery.com/200/300<br />Gray:
-            https://stevensegallery.com/g/200/300
+            Matthew is a great colleague of mine. He's outgoing, open-minded and fun to be
+            around. I haven't known him that long but I can see he is a problem solving
+            whizz and has great potential in any role.
           </p>
         </div>
       </div>
@@ -190,17 +219,19 @@
   overflow: hidden;
   height: 400px;
   width: auto;
-  transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
+  transition: all 1s cubic-bezier(1, -0.28, 0.66, 0.48);
   position: relative;
   z-index: 1;
 }
 .card .card-image img {
-  height: 400px;
+  height: 433px;
+  width: 372px;
   object-fit: cover;
-  transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
+  transition: all 1s cubic-bezier(1, -0.28, 0.66, 0.48);
 }
 .card .card-title {
   background: gold;
+  color: black;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
   transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
   margin: -5px 0 0 -20px;
@@ -232,14 +263,14 @@
   border-style: solid;
   border-width: 20px 0 20px 20px;
   border-color: goldenrod transparent transparent transparent;
-  transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
+  transition: all 1s cubic-bezier(1, -0.28, 0.66, 0.48);
   z-index: -1;
 }
 .card .card-detail {
   background: #111;
   height: auto;
   margin: 0;
-  transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
+  transition: all 1s cubic-bezier(1, -0.28, 0.66, 0.48);
 }
 .card .tgl-btn {
   background: gold;
@@ -252,12 +283,12 @@
   z-index: 99;
   top: 10px;
   right: 10px;
-  transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
+  transition: all 1s cubic-bezier(1, -0.28, 0.66, 0.48);
 }
 .card .tgl-btn span {
   background: #000;
   display: block;
-  height: 2px;
+  height: 0px;
   width: 30px;
   margin: 10px;
   position: relative;
@@ -268,7 +299,7 @@
   content: "";
   background: #000;
   display: block;
-  height: 1.5px;
+  height: 1.9px;
   width: 30px;
   position: absolute;
   transition: all 0.66s cubic-bezier(1, -0.28, 0.66, 0.48);
@@ -277,7 +308,7 @@
   bottom: -20px;
 }
 .card .tgl-btn span::after {
-  bottom: -15px;
+  bottom: -11px;
 }
 .card [type="checkbox"] {
   display: none;

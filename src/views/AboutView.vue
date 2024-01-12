@@ -7,12 +7,14 @@
       <div class="row">
         <div class="left-side">
           <div class="wrapper">
-            <div class="typing-demo">Hi I'm <span class="name">Matthew Swain...</span></div>
+            <div class="typing-demo">
+              Hi I'm <span class="name">Matthew Swain...</span>
+            </div>
           </div>
         </div>
         <div class="right-side">
           <div class="about-img">
-            <img src="https://i.postimg.cc/pVzTvjMY/Screenshot-2024-01-08-150841.png" />
+            <img src="https://i.postimg.cc/Kjr4KPD1/1000025645.jpg" />
           </div>
         </div>
       </div>
@@ -46,52 +48,20 @@
         life.
       </span>
       <br /><br />
-      Today, as I continue to evolve as a Developer, from having nothing to have everthing
-      i need to suceed I can stand as a individual that serves as an inspiration to
-      others, showcasing the incredible heights that can be reached when one refuses to be
-      defined by their challenges.
+      From being in a place where i was resulting to nothing not knowing what the future
+      held for me. Being at a point where i was at home jobless and being rejected
+      numerous times at both colleges and Universities I rose to the occation and made my
+      own path toward becoming a web developer as saw a opportunity at life choices add
+      grasped my opportunity with all my strenght and power and it has changed my life so
+      much.
+      <br /><br />
+      <span class="q3">
+        Today, as I continue to evolve as a Developer, from having nothing to have
+        everthing i need to suceed I can stand as a individual that serves as an
+        inspiration to others, showcasing the incredible heights that can be reached when
+        one refuses to be defined by their challenges.
+      </span>
     </p>
-  </div>
-  <div class="container2">
-    <div class="box">
-      <div class="box-img">
-        <img src="fam.jpg" />
-      </div>
-      <div class="box-text">
-        <h2>About My Family</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua...
-        </p>
-        <a href="#">view more</a>
-      </div>
-    </div>
-    <div class="box">
-      <div class="box-img">
-        <img src="prof2.jpg" />
-      </div>
-      <div class="box-text">
-        <h2>Some of My Story</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqu...
-        </p>
-        <a href="#">view more</a>
-      </div>
-    </div>
-    <div class="box">
-      <div class="box-img">
-        <img src="it.jpg" />
-      </div>
-      <div class="box-text">
-        <h2>Future Aspirations</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua...
-        </p>
-        <a href="#">view more</a>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -131,9 +101,9 @@
 .about-img::before {
   position: absolute;
   content: "";
-  right: -30px;
-  top: 15px;
-  border: 10px solid rgba(31, 30, 30, 0.5);
+  right: -10px;
+  top: -12px;
+  border: 10px solid gold;
   width: 100%;
   height: 100%;
 }
@@ -168,7 +138,7 @@
 
 .typing-demo {
   width: 500px;
-  animation: typing 4s steps(22), blink .5s step-end infinite alternate;
+  animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -178,19 +148,20 @@
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
 }
-    
+
 @keyframes blink {
   50% {
-    border-color: transparent
+    border-color: transparent;
   }
 }
 
 .quote-of-me {
-  width: 1000px;
-  height: 340px;
+  padding: 10px;
+  width: 1480px;
+  height: 400px;
   display: block;
   background-color: #333;
   border-radius: 10px;
@@ -204,77 +175,9 @@
   color: gold;
 }
 
-.container2 {
-  width: 95%;
-  height: auto;
-  padding: 10px;
-  margin: 80px auto;
-  display: flex;
-  justify-content: center;
+.q3 {
+  color: gold;
 }
 
-.box {
-  width: 380px;
-  height: 700px;
-  background: gold;
-  margin: 0px 10px;
-  transition: 2s;
-}
 
-.box:hover {
-  transform: scale(1.1);
-  background: goldenrod;
-  box-shadow: 2px 2px 2px #000;
-  z-index: 2;
-}
-
-.box-img img {
-  height: 110px;
-  width: 110px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 50px;
-  transform: translate(-50%, -50%);
-  position: relative;
-  margin-top: 30%;
-  margin-left: 50%;
-}
-
-.box-text {
-  padding: 10px;
-  margin: 5px;
-}
-
-.box-text h2 {
-  font-size: 20px;
-  margin-left: 25%;
-  margin-bottom: 30px;
-  color: black;
-}
-
-.box-text p {
-  line-height: 22px;
-  font-size: 16px;
-  margin-left: 20px;
-  margin-bottom: 12px;
-  color: black;
-}
-
-.box-text a {
-  background: rgb(219, 170, 178);
-  color: #000;
-  padding: 7px 15px;
-  display: inline-block;
-  text-decoration: none;
-  text-transform: capitalize;
-  position: relative;
-  margin-top: 10%;
-  margin-left: 35%;
-}
-
-.box-text a:hover {
-  background-color: rgb(238, 117, 137);
-  color: whitesmoke;
-  font: bold;
-}
 </style>

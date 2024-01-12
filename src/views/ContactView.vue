@@ -43,7 +43,7 @@
                 <i class="fas fa-clock"></i>
               </div>
               <div class="contact-info-text">
-                <h2>Avalibilty</h2>
+                <h2>Availibilty</h2>
                 <span>Mon - Fri 9:00 am - 5.00 pm</span>
                 <span>Sat & Sun 10.00 pm - 2.00 pm</span>
               </div>
@@ -53,22 +53,22 @@
       </div>
       <div class="row">
         <div class="col-md-8">
-          <div class="contact-page-form" method="post">
-            <form action="contact-mail.php" method="post">
+          <div class="contact-page-form">
+            <form @submit.prevent="submitForm" method="post" action="https://formspree.io/f/xleqdjjr">
               <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
                   <div class="single-input-field">
-                    <input type="text" placeholder="Your Name" name="name" />
+                    <input type="text" placeholder="Your Name" name="name" v-model="formData.name"  required />
                   </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                   <div class="single-input-field">
-                    <input type="email" placeholder="E-mail" name="email" required />
+                    <input type="email" placeholder="E-mail" name="email" v-model="formData.email" required />
                   </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                   <div class="single-input-field">
-                    <input type="text" placeholder="Phone Number" name="phone" />
+                    <input type="text" placeholder="Phone Number" name="phone" v-model="formData.message" required />
                   </div>
                 </div>
                 <div class="col-md-12 message-input">
@@ -77,7 +77,7 @@
                   </div>
                 </div>
                 <div class="single-input-fieldsbtn">
-                  <input type="submit" value="Send Now" />
+                  <button type="submit">Send</button>
                 </div>
               </div>
             </form>
@@ -100,7 +100,45 @@
   </section>
 </template>
 
-<script></script>
+<script>
+// @ is an alias to /src
+
+import axios from 'axios'
+export default {
+  components: {
+    
+  },
+  data() {
+  return {
+    formData: {
+      name: '',
+      email: '',
+      message: '',
+      phone:''
+    }
+  }
+},
+methods: {
+  async submitForm() {
+    try {
+      // You can add form validation logic here if needed
+      console.log('Form submitted with data:', this.formData);
+      // If you want to send an AJAX request, you can use libraries like Axios
+      // Example using Axios:
+      await axios.post('https://formspree.io/f/xleqdjjr', this.formData);
+      // Reset the form after submission
+      this.formData = {
+        name: '',
+        email: '',
+        message: ''
+      };
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+  }
+}
+}
+</script>
 
 <style>
 
@@ -231,7 +269,7 @@
   padding: 12px 16px;
   border-radius: 20px;
 }
-.single-input-fieldsbtn input[type="submit"] {
+.single-input-fieldsbtn button[type="submit"] {
   background: #111 none repeat scroll 0 0;
   color: gold;
   display: inline-block;
@@ -242,11 +280,12 @@
   margin-top: 20px;
   font-size: 16px;
 }
-.single-input-fieldsbtn input[type="submit"]:hover {
+.single-input-fieldsbtn button[type="submit"]:hover {
   background: gold;
   color: black;
   transition: all 0.7s ease-in-out 0s;
   border-color: #071c34;
+  cursor: pointer;
 }
 .single-input-field h4 {
   color: #464646;
