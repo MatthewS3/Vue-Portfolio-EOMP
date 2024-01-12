@@ -31,15 +31,16 @@
         <label class="tgl-btn" for="card2"><span></span></label>
         <div class="tgl-view">
           <div class="card-image">
-            <img src="https://www.placecage.com/g/600/600" alt="cage" />
+            <img src="https://i.postimg.cc/vBW9LVSC/20240110-121622.jpg" alt="tamlin" />
           </div>
-          <h2 class="card-title">Tamlin</h2>
+          <h2 class="card-title">Tamlin Leigh Geyer</h2>
           <p class="card-detail">
-            I think you've got this figured out by now.<br /><br />Calm:
-            https://www.placecage.com/200/300<br />Gray:
-            https://www.placecage.com/g/200/300<br />CRAZY:
-            https://www.placecage.com/c/200/300<br />GIF:
-            https://www.placecage.com/gif/200/300
+            "Working with Matthew has been an absolute pleasure, and I couldn't be more
+            grateful for their invaluable contributions to our web development projects.
+            He is not just a talented developer, but a great friend. Their passion for web
+            development is evident in every task they undertake.He approaches each project
+            with enthusiasm and dedication, consistency. What truly stands out is
+            Matthew's helpful nature, hi always ready to lend a hand to his friends.
           </p>
         </div>
       </div>
