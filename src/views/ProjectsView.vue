@@ -17,7 +17,9 @@
               />
               <div class="button_container">
               <a href="https://takealittle-ecommerce-website.netlify.app/"><button class="btn">
-                <span>link.</span></button></a>
+                <span>Netlify</span></button></a>
+                <a href="https://github.com/MatthewS3/E-Commerce-JS-EOMP"><button class="btn">
+                <span>GitHub</span></button></a>
               </div>
             </div>
             <div class="cardww" tabindex="0">
@@ -29,7 +31,9 @@
                 width="100%"
               />
               <a href="https://hex-rgb-converter.netlify.app/"><button class="btn">
-                <span>Link</span></button></a>
+                <span>Netlify</span></button></a>
+                <a href="https://github.com/MatthewS3/HexToRGB"><button class="btn">
+                <span>GitHub</span></button></a>
             </div>
             <div class="cardww" tabindex="0">
               <h2>Rgb to Hex
@@ -40,7 +44,9 @@
                 width="100%"
               />
               <a href="https://rgb-to-hex-converter1.netlify.app/"><button class="btn">
-                <span>Link</span></button></a>
+                <span>Netlify</span></button></a>
+                <a href="https://github.com/MatthewS3/RGBtoHEX"><button class="btn">
+                <span>GitHub</span></button></a>
             </div>
             <div class="cardww" tabindex="0">
               <h2>Js Calculator:</h2>
@@ -49,7 +55,9 @@
                 width="100%"
               />
               <a href="https://javascript-calculator-ms.netlify.app/"><button class="btn">
-                <span>Link</span></button></a>
+                <span>Netlify</span></button></a>
+                <a href="https://github.com/MatthewS3/JavaScript_Calc"><button class="btn">
+                <span>GitHub</span></button></a>
             </div>
             <div class="cardww" tabindex="0">
               <h2>Interest Rate Calculator:</h2>
@@ -58,7 +66,9 @@
                 width="100%"
               />
               <a href="https://interest-rate-calculatortor.netlify.app/"><button class="btn">
-                <span>Link</span></button></a>
+                <span>Netlify</span></button></a>
+                <a href="https://github.com/MatthewS3/Interest-Calculator"><button class="btn">
+                <span>GitHub</span></button></a>
             </div>
             <div class="cardww" tabindex="0">
               <h2>YouTube Cloned Website:</h2>
@@ -67,7 +77,9 @@
                 width="100%"
               />
               <a href="https://youtube-clone-web-ms.netlify.app/"><button class="btn">
-                <span>Link</span></button></a>
+                <span>Netlify</span></button></a>
+                <a href="https://github.com/MatthewS3/YouTube_Clone"><button class="btn">
+                <span>GitHub</span></button></a>
             </div>
           </div>
         </div>

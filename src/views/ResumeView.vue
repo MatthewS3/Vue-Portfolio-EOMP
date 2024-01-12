@@ -89,7 +89,7 @@
         </p>
         <a href="#">Volunteer Work</a>
       </div>
-      <img src="https://i.postimg.cc/ncL5DDKr/volunteer-removebg-preview.png" alt="" />
+      <img src="" alt="" />
     </div>
     <div class="card">
       <div class="content">
@@ -102,7 +102,7 @@
         <a href="#">Payroll Administrator</a>
       </div>
       <img
-        src="https://imagensemoldes.com.br/wp-content/uploads/2020/02/Avatar-A-Lenda-Aang-Katara-PNG-05.png"
+        src=""
         alt=""
       />
     </div>
@@ -118,7 +118,7 @@
         <a href="#">Community transport driver</a>
       </div>
       <img
-        src="https://uploaddeimagens.com.br/images/003/165/609/full/Principe_zuko_by_yuzumi2000-d6lbrj4.png?1617055559"
+        src=""
         alt=""
       />
     </div>
