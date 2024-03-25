@@ -1,20 +1,86 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/resume">Resume & Skills</router-link> |
-    <router-link to="/projects">Projects</router-link> |
-    <router-link to="/testimonials">Testimonials</router-link> |
-    <router-link to="/contact">Contact</router-link>
+  <nav class=" bg-black navbar-expand-lg">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <!-- <h3> <span class="L">L</span>IGMA <span class="A">A</span>GENCY </h3> -->
+              <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                      <router-link to='/' class="nav-link">
+                          Home
+                      </router-link>
+                  </li>
+                  <li class="nav-item">
+                      <router-link class="nav-link" to="/about">
+                          About
+                      </router-link>
+                  </li>
+                  <li class="nav-item">
+                      <router-link class="nav-link" to="/resume">
+                          Resume
+                      </router-link>
+                  </li>
+                  <li class="nav-item">
+                      <router-link class="nav-link" to="/projects">
+                          Projects
+                      </router-link>
+                  </li>
+                  <li class="nav-item">
+                      <router-link class="nav-link" to="/testimonials">
+                          Testimonials
+                      </router-link>
+                  </li>
+                  <li class="nav-item">
+                      <router-link class="nav-link" to="/contact">
+                          Contact Us
+                      </router-link>
+                  </li>
+              </ul>
+          </div>
+      </div>
   </nav>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+
+}
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* 
+.img-fluid {
+  width: 100px;
+  height: 100px;
+} */
 
+.navbar-nav li {
+  margin-inline: 1rem;
+  font-size: large;
+  font-family: "Playfair Display", serif;
+}
+
+nav {
+  color: #ddd;
+  letter-spacing: 3px;
+  font-family: "Playfair Display", serif;
+}
+
+nav a.nav-link:hover {
+  color: gold;
+  transform: scale(1.2);
+}
+
+nav a.router-link-active:hover {
+  color: gold;
+}
+
+nav a.router-link-exact-active {
+  color: gold;
+}
 </style>

@@ -41,9 +41,6 @@
             Developer.
           </p>
         </div>
-        <a href="">
-          <button class="btn">Read More</button>
-        </a>
       </section>
     </div>
   </div>
@@ -55,13 +52,15 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 #home {
-  height: 550px;
+  height: 610px;
   background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png);
   display: flex;
   justify-content: center;
-  padding: 30px;
+  padding: 65px;
 }
 
 .name {
@@ -71,17 +70,16 @@ export default {
 .fade-in-text {
   width: 600px;
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Playfair Display", serif;
   animation: fadeIn 5s;
 }
 
 .waviy {
   position: relative;
-  /* -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2)); */
   font-size: 60px;
 }
 .waviy span {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Playfair Display", serif;
   position: relative;
   display: inline-block;
   color: gold;
@@ -115,7 +113,7 @@ export default {
 .btn {
   background-color: gold;
   font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Playfair Display", serif;
   height: 40px;
   width: 130px;
   border-radius: 100px;

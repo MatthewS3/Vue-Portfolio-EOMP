@@ -1,27 +1,21 @@
 <template>
   <NavBar />
-  <div class="home">
     <router-view />
-  </div>
-  <Footer />
+  <FooterView />
 </template>
 <script>
 import NavBar from './components/NavBar.vue';
-import Footer from './components/Footer.vue';
+import FooterView from './components/FooterView.vue';
 
 export default {
   components: {
     NavBar,
-    Footer,
+    FooterView,
   },
 };
 </script>
 
 <style>
-body {
-  background-color: #444;
-}
-
 #app {
   font-family: "Courier New", Courier, monospace;
   -webkit-font-smoothing: antialiased;
@@ -29,6 +23,7 @@ body {
   text-align: center;
   color: #ddd;
   animation: fadeIn 5s;
+  background-color: black;
 }
 
 nav {

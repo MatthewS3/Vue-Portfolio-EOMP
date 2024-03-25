@@ -88,14 +88,16 @@
   position: absolute;
   top: 300px;
   left: 1000px;
+  animation: enlarge 5s infinite alternate; /* Animation properties */
 }
 
-.about-img:hover {
-  transform: scale(1.1);
-  transition: 2s ease-in-out;
-  background: #3d3f3f;
-  box-shadow: 2px 2px 2px #000;
-  z-index: 2;
+@keyframes enlarge {
+  0% {
+    transform: scale(1); /* Initial size */
+  }
+  100% {
+    transform: scale(1.15); /* Enlarged size */
+  }
 }
 
 .about-img::before {
@@ -138,7 +140,7 @@
 
 .typing-demo {
   width: 500px;
-  animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+  animation: typing 5s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
