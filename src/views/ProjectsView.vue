@@ -16,9 +16,9 @@
                 width="100%"
               />
               <div class="button_container">
-              <a href="https://takealittle-ecommerce-website.netlify.app/"><button class="btn">
+              <a href="https://takealittle-ecommerce-website.netlify.app/"><button class="btn33">
                 <span>Netlify</span></button></a>
-                <a href="https://github.com/MatthewS3/E-Commerce-JS-EOMP"><button class="btn">
+                <a href="https://github.com/MatthewS3/E-Commerce-JS-EOMP"><button class="btn33">
                 <span>GitHub</span></button></a>
               </div>
             </div>
@@ -30,9 +30,9 @@
                 src="https://i.postimg.cc/Gmf9XK90/Screenshot-2024-01-12-093130.png"
                 width="100%"
               />
-              <a href="https://hex-rgb-converter.netlify.app/"><button class="btn">
+              <a href="https://hex-rgb-converter.netlify.app/"><button class="btn33">
                 <span>Netlify</span></button></a>
-                <a href="https://github.com/MatthewS3/HexToRGB"><button class="btn">
+                <a href="https://github.com/MatthewS3/HexToRGB"><button class="btn33">
                 <span>GitHub</span></button></a>
             </div>
             <div class="cardww" tabindex="0">
@@ -43,9 +43,9 @@
                 src="https://i.postimg.cc/0jZ7jSn8/Screenshot-2024-01-12-093325.png"
                 width="100%"
               />
-              <a href="https://rgb-to-hex-converter1.netlify.app/"><button class="btn">
+              <a href="https://rgb-to-hex-converter1.netlify.app/"><button class="btn33">
                 <span>Netlify</span></button></a>
-                <a href="https://github.com/MatthewS3/RGBtoHEX"><button class="btn">
+                <a href="https://github.com/MatthewS3/RGBtoHEX"><button class="btn33">
                 <span>GitHub</span></button></a>
             </div>
             <div class="cardww" tabindex="0">
@@ -54,9 +54,9 @@
                 src="https://i.postimg.cc/90qr5qk8/Screenshot-2024-01-12-093532.png"
                 width="100%"
               />
-              <a href="https://javascript-calculator-ms.netlify.app/"><button class="btn">
+              <a href="https://javascript-calculator-ms.netlify.app/"><button class="btn33">
                 <span>Netlify</span></button></a>
-                <a href="https://github.com/MatthewS3/JavaScript_Calc"><button class="btn">
+                <a href="https://github.com/MatthewS3/JavaScript_Calc"><button class="btn33">
                 <span>GitHub</span></button></a>
             </div>
             <div class="cardww" tabindex="0">
@@ -65,9 +65,9 @@
                 src="https://i.postimg.cc/wMqYVZmQ/Screenshot-2024-01-12-094645.png"
                 width="100%"
               />
-              <a href="https://interest-rate-calculatortor.netlify.app/"><button class="btn">
+              <a href="https://interest-rate-calculatortor.netlify.app/"><button class="btn33">
                 <span>Netlify</span></button></a>
-                <a href="https://github.com/MatthewS3/Interest-Calculator"><button class="btn">
+                <a href="https://github.com/MatthewS3/Interest-Calculator"><button class="btn33">
                 <span>GitHub</span></button></a>
             </div>
             <div class="cardww" tabindex="0">
@@ -76,9 +76,9 @@
                 src="https://i.postimg.cc/vTtYrLxV/Screenshot-2024-01-12-094317.png"
                 width="100%"
               />
-              <a href="https://youtube-clone-web-ms.netlify.app/"><button class="btn">
+              <a href="https://youtube-clone-web-ms.netlify.app/"><button class="btn33">
                 <span>Netlify</span></button></a>
-                <a href="https://github.com/MatthewS3/YouTube_Clone"><button class="btn">
+                <a href="https://github.com/MatthewS3/YouTube_Clone"><button class="btn33">
                 <span>GitHub</span></button></a>
             </div>
           </div>
@@ -97,19 +97,19 @@
 }
 .card-container .cardww {
   flex: 1;
-  transition: all 0.3s ease-in-out;
-  background-color: #333;
+  transition: all 0.4s ease-in-out;
+  background-color: #111;
   color: gold;
   padding: 15px;
-  border-radius: 30px;
-  border: solid 2px black;
+  border-radius: 20px;
+  border: solid 5px #000;
 
 }
 .cardww h2 {
   font-size: 22px;
 }
 .card-container .cardww:not(:first-child) {
-  margin-left: -6rem;
+  margin-left: -4rem;
 }
 .cardww img {
   padding: 35px;
@@ -169,7 +169,7 @@
   top: 10%;
 }
 
-.btn {
+.btn33 {
   border: none;
   display: block;
   text-align: center;
@@ -181,19 +181,20 @@
   color: gold;
   font-weight: 700;
   font-size: 15px;
-  background-color: #222;
+  background-color: #000;
+  border-radius: 50px;
   padding: 10px 20px;
   margin: 0 auto;
   box-shadow: 0 5px 15px rgba(0,0,0,20.20);
 }
 
-.btn span {
+.btn33 span {
   position: relative; 
   z-index: 0;
 }
 
 
-.btn:hover {
+.btn33:hover {
   content: "";
   position: relative;
   left: 0;

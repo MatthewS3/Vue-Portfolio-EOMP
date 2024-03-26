@@ -1,7 +1,4 @@
 <template>
-  <div class="about">
-    <h1>About Me:</h1>
-  </div>
   <div class="body">
     <div class="container1">
       <div class="row">
@@ -20,6 +17,7 @@
       </div>
     </div>
   </div>
+  <br>
   <div class="quote-of-me">
     <p class="about-me">
       Against all odds, I have as emerged as a resilient and tenacious individual who has
@@ -68,25 +66,27 @@
 <script></script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 .body {
-  width: 95%;
-  height: 600px;
+  width: auto;
+  height: 610px;
   background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png);
   display: flex;
-  margin: 80px auto;
+  padding: 65px;
 }
 
 .right-side {
   display: flex;
   float: left;
   width: 50%;
-  padding: 20px;
+  padding: 0px;
   height: 300px;
 }
 
 .right-side .about-img {
   position: absolute;
-  top: 300px;
+  top: 190px;
   left: 1000px;
   animation: enlarge 5s infinite alternate; /* Animation properties */
 }
@@ -104,19 +104,23 @@
   position: absolute;
   content: "";
   right: -10px;
-  top: -12px;
+  top: -10px;
   border: 10px solid gold;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .about-img img {
   height: 450px;
   width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 200px black;
+
 }
 
 .about-me {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .name {
@@ -139,12 +143,12 @@
 }
 
 .typing-demo {
-  width: 500px;
+  width: auto;
   animation: typing 5s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 3em;
 }
 
@@ -162,11 +166,8 @@
 
 .quote-of-me {
   padding: 10px;
-  width: 1480px;
   height: 400px;
   display: block;
-  background-color: #333;
-  border-radius: 10px;
 }
 
 .q1 {

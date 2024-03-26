@@ -17,7 +17,7 @@ export default {
 
 <style>
 #app {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Playfair Display", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

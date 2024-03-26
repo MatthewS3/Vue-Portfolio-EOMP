@@ -1,43 +1,62 @@
 <template>
-  <h1>My Skills:</h1>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="text">
+    <h2><span>My</span> Skills</h2>
+    <p>My Experince and skills in computer since</p>
+  </div>
   <section>
-  <div class="skills">
-    <div class="skills-bar">
-      <div class="bar">
-        <div class="info">
-          <span>HTML</span>
-        </div>
-        <div class="progress-line"><span class="html"></span></div>
-        <div class="bar">
-          <div class="info">
-            <span>CSS</span>
+    <div class="skills">
+      <div class="containerSS">
+        <div class="skill-card">
+          <div class="card">
+            <i class="fa fa-pencil-ruler"></i>
+            <h4>HTML</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aliquid, ipsam.</p>
           </div>
-          <div class="progress-line"><span class="css"></span></div>
-          <div class="bar">
-            <div class="info">
-              <span>BOOTSTRAP</span>
-            </div>
-            <div class="progress-line"><span class="bootstrap"></span></div>
-            <div class="bar">
-              <div class="info">
-                <span>JAVASCRIPT</span>
-              </div>
-              <div class="progress-line">
-                <span class="javascript"></span>
-              </div>
-              <div class="bar">
-                <div class="info">
-                  <span>Vue.JS</span>
-                </div>
-                <div class="progress-line"><span class="c"></span></div>
-              </div>
-            </div>
+
+          <div class="card">
+            <i class="fa fa-magic"></i>
+            <h4>CSS</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aliquid, ipsam.</p>
+          </div>
+
+          <div class="card">
+            <i class="fa fa-sketch"></i>
+            <h4>BOOTSTRAP</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aliquid, ipsam.</p>
+          </div>
+          <div class="card">
+            <i class="fa fa-bitbucket"></i>
+            <h4>JAVASCRIPT</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aliquid, ipsam.</p>
+          </div>
+          <div class="card">
+            <i class="fa fa-chart-line"></i>
+            <h4>VUE.JS</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aliquid, ipsam.</p>
+          </div>
+
+          <div class="card">
+            <i class="fa fa-file-code"></i>
+            <h4>MYSQL</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aliquid, ipsam.</p>
+          </div>
+          <div class="card">
+            <i class="fa fa-file-code"></i>
+            <h4>NODE.JS</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aliquid, ipsam.</p>
+          </div>
+          <div class="card">
+            <i class="fa fa-file-code"></i>
+            <h4>GIT / GITHUB</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aliquid, ipsam.</p>
           </div>
         </div>
+        <a href="#">See All Skills</a>
       </div>
     </div>
-  </div>
   </section>
+  <br>
   <h1>My Education:</h1>
   <div class="container">
     <div class="card">
@@ -46,11 +65,8 @@
         <p>I attended Turfhall Primary School and graduated in 2015.</p>
         <a href="#">Turfhall Primary School</a>
       </div>
-      <img
-        src="https://i.postimg.cc/zVGVcGgp/Screenshot-2023-11-01-110851-removebg-preview.png[/img][/url]
-"
-        alt=""
-      />
+      <img src="https://i.postimg.cc/zVGVcGgp/Screenshot-2023-11-01-110851-removebg-preview.png[/img][/url]
+" alt="" />
     </div>
     <div class="card">
       <div class="content">
@@ -58,11 +74,8 @@
         <p>I attended Windsor High School and graduated Matic with a bachelors Pass .</p>
         <a href="#">Windsor High School</a>
       </div>
-      <img
-        src="https://i.postimg.cc/0rx67f5T/Screenshot-2023-11-01-110948-removebg-preview.png[/img][/url]
-"
-        alt=""
-      />
+      <img src="https://i.postimg.cc/0rx67f5T/Screenshot-2023-11-01-110948-removebg-preview.png[/img][/url]
+" alt="" />
     </div>
     <div class="card">
       <div class="content">
@@ -101,10 +114,7 @@
         </p>
         <a href="#">Payroll Administrator</a>
       </div>
-      <img
-        src=""
-        alt=""
-      />
+      <img src="" alt="" />
     </div>
     <div class="card">
       <div class="content">
@@ -117,10 +127,7 @@
         </p>
         <a href="#">Community transport driver</a>
       </div>
-      <img
-        src=""
-        alt=""
-      />
+      <img src="" alt="" />
     </div>
   </div>
 </template>
@@ -128,133 +135,165 @@
 <script></script>
 
 <style>
-.skills {
-  position: relative;
-  width: 470px;
-  top: 200px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #222;
-  border-radius: 50px;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+:root {
+  --main-color: gold;
+  --second-color: #222;
+  --third-color: #ddd;
+  --bg-color: #000;
+  --main-grid: repeat(auto-fill, minmax(300px, 1fr));
+  --main-padding: 40px;
 }
 
-.skills-bar {
-  padding: 25px 30px;
+.containerSS {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.skills-bar .bar {
-  margin: 25px 0;
-}
-
-.skills-bar .bar .info span {
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.skills-bar .bar .info {
-  margin-bottom: 8px;
-  color: gold;
-}
-
-.skills-bar .bar .progress-line {
-  position: relative;
-  align-content: center;
-  height: 10px;
-  width: 450px;
-  margin-left: -245px;
-  background: transparent;
-  border-radius: 10px;
-  transform: scaleX(0);
-  transform-origin: center;
-  animation: animate 5s cubic-bezier(1, 0, 0.5, 1) forwards;
-}
-
-.bar .progress-line span {
-  position: absolute;
-  background: gold;
-  height: 100%;
-  border-radius: 10px;
-  transform: scaleX(0px);
-  transform-origin: center;
-  animation: animate 5s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
-}
-
-@keyframes animate {
-  100% {
-    transform: scaleX(1);
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
   }
 }
 
-.progress-line .html {
-  width: 75%;
-}
-.progress-line .css {
-  width: 70%;
-}
-.progress-line .bootstrap {
-  width: 68%;
-}
-.progress-line .javascript {
-  width: 40%;
-}
-.progress-line .c {
-  width: 30%;
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
 }
 
-.bar .progress-line span::before {
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.skills {
+  padding-top: var(--main-padding);
+  padding-bottom: var(--main-padding);
+  background-color: var(--bg-color);
+  text-align: center;
+}
+
+.skills .text {
+  padding-bottom: 20px;
+}
+
+.skills h2 {
+  font-size: 35px;
+  color: var(--second-color);
+  padding-bottom: 20px;
+}
+
+.skills h2 span {
+  color: var(--main-color);
+}
+
+.skills p {
+  font-size: 18px;
+  color: var(--second-color);
+  font-weight: 400;
+}
+
+.skills .skill-card {
+  display: grid;
+  grid-template-columns: var(--main-grid);
+  grid-gap: 60px;
+  margin-bottom: 70px;
+  margin-top: 60px;
+}
+
+.skills .skill-card .card {
+  padding: 25px;
+  text-align: center;
+  background-color: var(--second-color);
+  border: 2px solid var(--main-color);
+  color: var(--third-color);
+  transition: 1s;
+  position: relative;
+}
+
+.skills .card h4 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.skills .card p {
+  line-height: 1.7;
+  font-size: 16px;
+  color: var(--third-color);
+}
+
+.skills .card i {
+  font-size: 42px;
+  padding: 15px;
+  width: 75px;
+  height: 75px;
+  color: var(--second-color);
+  background-color: var(--main-color);
   position: absolute;
-  content: "";
-  height: 0;
-  right: 0;
-  top: -14px;
-  width: 0;
-  border: 7px solid transparent;
-  border-bottom-width: 0px;
-  border-right-width: 0px;
-  border-top-style: #f0f0f0;
-  border-top-color: #111;
+  top: calc(-75px / 2);
+  transform: rotate(45deg);
+  left: 39%;
+  transition: 1s;
+  border: 1px solid var(--main-color);
 }
 
-.bar .progress-line span::after {
-  position: absolute;
-  right: 0;
-  top: -28px;
-  color: #f0f0f0;
-  font-size: 12px;
-  font-weight: 700;
-  background: #111;
-  padding: 1px 8px;
-  border-radius: 3px;
+.skills .card:hover {
+  background-color: transparent;
 }
 
-
-.progress-line .html::after {
-  content: "%";
-}
-.progress-line .css::after {
-  content: "%";
-}
-.progress-line .bootstrap::after {
-  content: "%";
-}
-.progress-line .javascript::after {
-  content: "%";
-}
-.progress-line .c::after {
-  content: "%";
+.skills .card:hover i {
+  transform: rotate(0deg);
+  background-color: var(--bg-color);
 }
 
-/* ////........Media Query........//// */
+.skills .card:hover h4,
+.skills .card:hover p {
+  color: var(--second-color);
+  transition: 1s;
+}
 
-@media (max-width: 700px) {
-    .skills{
-        width: 80%;
-    }
+.skills a {
+  border: 1px solid var(--main-color);
+  background-color: var(--main-color);
+  border-radius: 2px;
+  color: var(--second-color);
+  transition: background-color 0.8s;
+  padding: 12px 20px;
+  letter-spacing: 1.5px;
+  z-index: 50px;
+  text-decoration: none;
+}
 
-    .skills-bar .bar .progress-line{
-        width: 100%;
-    }
+.skills a:hover {
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+
+.support {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  background-color: var(--bg-color);
+}
+
+.support i {
+  color: var(--main-color);
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.hide1 {
+  display: none;
+  margin-left: 5px;
+  margin-right: 10px;
+  color: var(--main-color);
+  font-size: 15px;
 }
 
 
