@@ -33,17 +33,14 @@
       <div class="text">
         <span>Web & Software Developer</span>
       </div>
-      <section>
+      <section class="Sec1">
         <div class="ease-in">
           <p class="ease-in">
-            I have a trumendous passion for Web designing as well as interactive, and
+            I have a tremendous passion for Web designing as well as interactive, and
             responsive websites and i am fulfilling a dream of mine to become a Web
             Developer.
           </p>
         </div>
-        <a href="">
-          <button class="btn">Read More</button>
-        </a>
       </section>
     </div>
   </div>
@@ -64,24 +61,26 @@ export default {
   padding: 30px;
 }
 
-.name {
-  color: gold;
-}
-
 .fade-in-text {
   width: 600px;
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Playfair Display", serif;
   animation: fadeIn 5s;
 }
+
+/* .Sec1 {
+  background-color: black;
+} */
 
 .waviy {
   position: relative;
   /* -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2)); */
   font-size: 60px;
+  /* background-color: rgba(0, 0, 0, 0.5);  */
+
 }
 .waviy span {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Playfair Display", serif;
   position: relative;
   display: inline-block;
   color: gold;
@@ -89,6 +88,7 @@ export default {
   animation: waviy 3s infinite;
   animation-delay: calc(0.1s * var(--i));
 }
+
 @keyframes waviy {
   0%,
   60%,
@@ -112,25 +112,13 @@ export default {
   animation: fadeIn 8s;
 }
 
-.btn {
-  background-color: gold;
-  font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  height: 40px;
-  width: 130px;
-  border-radius: 100px;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: black;
-  color: gold;
-  transition: 2.5s;
-}
 .ease-in {
   font-size: 25px;
+  font-weight: bold;
   margin-bottom: 20px;
   animation: color-change 10s infinite;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 0 50px;
 }
 
 @keyframes color-change {
@@ -156,6 +144,7 @@ export default {
   overflow:hidden;
   color: gold;
   font-size: 28px;
+
 }
 
 .text:first-of-type { 
