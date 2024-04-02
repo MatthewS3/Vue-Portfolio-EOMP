@@ -18,12 +18,14 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 body {
-  background-color: #444;
+  background-color: #111;
 }
 
 #app {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Playfair Display", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -35,6 +37,7 @@ nav {
   padding: 30px;
   font-size: 20px;
   text-decoration: none;
+  letter-spacing: 5px;
 }
 
 nav a:hover {
@@ -44,8 +47,9 @@ nav a:hover {
 
 nav a {
   font-weight: bold;
-  color: black;
+  color: #ddd;
   animation: fadeIn 5s;
+  text-decoration: none;
 }
 
 @keyframes fadeIn {

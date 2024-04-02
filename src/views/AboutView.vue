@@ -1,7 +1,4 @@
 <template>
-  <div class="about">
-    <h1>About Me:</h1>
-  </div>
   <div class="body">
     <div class="container1">
       <div class="row">
@@ -69,11 +66,10 @@
 
 <style>
 .body {
-  width: 95%;
-  height: 600px;
+  width: auto;
+  height: 610px;
   background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png);
   display: flex;
-  margin: 80px auto;
 }
 
 .right-side {
@@ -86,26 +82,29 @@
 
 .right-side .about-img {
   position: absolute;
-  top: 300px;
+  top: 175px;
   left: 1000px;
+  width: 250px; /* Set your desired initial width */
+  height: auto; /* Maintain aspect ratio */
+  animation: enlarge 4s infinite alternate; /* Animation properties */
 }
 
-.about-img:hover {
-  transform: scale(1.1);
-  transition: 2s ease-in-out;
-  background: #3d3f3f;
-  box-shadow: 2px 2px 2px #000;
-  z-index: 2;
+@keyframes enlarge {
+  0% {
+    transform: scale(1); /* Initial size */
+  }
+  100% {
+    transform: scale(1.2); /* Enlarged size */
+  }
 }
 
 .about-img::before {
   position: absolute;
   content: "";
   right: -10px;
-  top: -12px;
   border: 10px solid gold;
   width: 100%;
-  height: 100%;
+  height: 440px;
 }
 
 .about-img img {
@@ -142,7 +141,7 @@
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 3em;
 }
 
