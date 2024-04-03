@@ -1,119 +1,162 @@
 <template>
-  <div class="project">
-    <h1>My Projects:</h1>
-  </div>
-  <section class="wwww">
-    <div class="container">
-      <div class="row mt-5">
-        <div class="col">
-          <div class="card-container" id="demo">
-            <div class="cardww" tabindex="0">
-              <h2>JS E-Commerce 
-              <br>
-              Website:</h2>
-              <img
-                src="https://i.postimg.cc/d1XycDkN/Screenshot-2024-01-12-083000.png"
-                width="100%"
-              />
-              <div class="button_container">
-              <a href="https://takealittle-ecommerce-website.netlify.app/"><button class="btn">
-                <span>Netlify</span></button></a>
-                <a href="https://github.com/MatthewS3/E-Commerce-JS-EOMP"><button class="btn">
-                <span>GitHub</span></button></a>
+  <div class="Projects">
+    <h1>My Projects</h1>
+    <section class="wwww">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col">
+            <div class="card-container" id="demo">
+              <div class="cardww" tabindex="0">
+                <h2>
+                  JS E-Commerce
+                  <br />
+                  Website:
+                </h2>
+                <img
+                  src="https://i.postimg.cc/d1XycDkN/Screenshot-2024-01-12-083000.png"
+                  width="100%"
+                />
+                <div class="button_container">
+                  <a href="https://takealittle-ecommerce-website.netlify.app/"
+                    ><button class="btn">
+                      <span>Host Link</span>
+                    </button></a
+                  >
+                  <a href="https://github.com/MatthewS3/E-Commerce-JS-EOMP"
+                    ><button class="btn">
+                      <span>GitHub</span>
+                    </button></a
+                  >
+                </div>
               </div>
-            </div>
-            <div class="cardww" tabindex="0">
-              <h2>Hex To Rgb
-              <br>
-              Converter:</h2>
-              <img
-                src="https://i.postimg.cc/Gmf9XK90/Screenshot-2024-01-12-093130.png"
-                width="100%"
-              />
-              <a href="https://hex-rgb-converter.netlify.app/"><button class="btn">
-                <span>Netlify</span></button></a>
-                <a href="https://github.com/MatthewS3/HexToRGB"><button class="btn">
-                <span>GitHub</span></button></a>
-            </div>
-            <div class="cardww" tabindex="0">
-              <h2>Rgb to Hex
-              <br>
-              Converter:</h2>
-              <img
-                src="https://i.postimg.cc/0jZ7jSn8/Screenshot-2024-01-12-093325.png"
-                width="100%"
-              />
-              <a href="https://rgb-to-hex-converter1.netlify.app/"><button class="btn">
-                <span>Netlify</span></button></a>
-                <a href="https://github.com/MatthewS3/RGBtoHEX"><button class="btn">
-                <span>GitHub</span></button></a>
-            </div>
-            <div class="cardww" tabindex="0">
-              <h2>Js Calculator:</h2>
-              <img
-                src="https://i.postimg.cc/90qr5qk8/Screenshot-2024-01-12-093532.png"
-                width="100%"
-              />
-              <a href="https://javascript-calculator-ms.netlify.app/"><button class="btn">
-                <span>Netlify</span></button></a>
-                <a href="https://github.com/MatthewS3/JavaScript_Calc"><button class="btn">
-                <span>GitHub</span></button></a>
-            </div>
-            <div class="cardww" tabindex="0">
-              <h2>Interest Rate Calculator:</h2>
-              <img
-                src="https://i.postimg.cc/wMqYVZmQ/Screenshot-2024-01-12-094645.png"
-                width="100%"
-              />
-              <a href="https://interest-rate-calculatortor.netlify.app/"><button class="btn">
-                <span>Netlify</span></button></a>
-                <a href="https://github.com/MatthewS3/Interest-Calculator"><button class="btn">
-                <span>GitHub</span></button></a>
-            </div>
-            <div class="cardww" tabindex="0">
-              <h2>YouTube Cloned Website:</h2>
-              <img
-                src="https://i.postimg.cc/vTtYrLxV/Screenshot-2024-01-12-094317.png"
-                width="100%"
-              />
-              <a href="https://youtube-clone-web-ms.netlify.app/"><button class="btn">
-                <span>Netlify</span></button></a>
-                <a href="https://github.com/MatthewS3/YouTube_Clone"><button class="btn">
-                <span>GitHub</span></button></a>
+              <div class="cardww" tabindex="0">
+                <h2>
+                  Hex To Rgb
+                  <br />
+                  Converter:
+                </h2>
+                <img
+                  src="https://i.postimg.cc/Gmf9XK90/Screenshot-2024-01-12-093130.png"
+                  width="100%"
+                />
+                <a href="https://hex-rgb-converter.netlify.app/"
+                  ><button class="btn">
+                    <span>Host Link</span>
+                  </button></a
+                >
+                <a href="https://github.com/MatthewS3/HexToRGB"
+                  ><button class="btn">
+                    <span>GitHub</span>
+                  </button></a
+                >
+              </div>
+              <div class="cardww" tabindex="0">
+                <h2>
+                  Rgb to Hex
+                  <br />
+                  Converter:
+                </h2>
+                <img
+                  src="https://i.postimg.cc/0jZ7jSn8/Screenshot-2024-01-12-093325.png"
+                  width="100%"
+                />
+                <a href="https://rgb-to-hex-converter1.netlify.app/"
+                  ><button class="btn">
+                    <span>Host Link</span>
+                  </button></a
+                >
+                <a href="https://github.com/MatthewS3/RGBtoHEX"
+                  ><button class="btn">
+                    <span>GitHub</span>
+                  </button></a
+                >
+              </div>
+              <div class="cardww" tabindex="0">
+                <h2>Js Calculator:</h2>
+                <img
+                  src="https://i.postimg.cc/90qr5qk8/Screenshot-2024-01-12-093532.png"
+                  width="100%"
+                />
+                <a href="https://javascript-calculator-ms.netlify.app/"
+                  ><button class="btn">
+                    <span>Host Link</span>
+                  </button></a
+                >
+                <a href="https://github.com/MatthewS3/JavaScript_Calc"
+                  ><button class="btn">
+                    <span>GitHub</span>
+                  </button></a
+                >
+              </div>
+              <div class="cardww" tabindex="0">
+                <h2>Interest Rate Calculator:</h2>
+                <img
+                  src="https://i.postimg.cc/wMqYVZmQ/Screenshot-2024-01-12-094645.png"
+                  width="100%"
+                />
+                <a href="https://interest-rate-calculatortor.netlify.app/"
+                  ><button class="btn">
+                    <span>Host Link</span>
+                  </button></a
+                >
+                <a href="https://github.com/MatthewS3/Interest-Calculator"
+                  ><button class="btn">
+                    <span>GitHub</span>
+                  </button></a
+                >
+              </div>
+              <div class="cardww" tabindex="0">
+                <h2>YouTube Cloned Website:</h2>
+                <img
+                  src="https://i.postimg.cc/vTtYrLxV/Screenshot-2024-01-12-094317.png"
+                  width="100%"
+                />
+                <a href="https://youtube-clone-web-ms.netlify.app/"
+                  ><button class="btn">
+                    <span>Host Link</span>
+                  </button></a
+                >
+                <a href="https://github.com/MatthewS3/YouTube_Clone"
+                  ><button class="btn">
+                    <span>GitHub</span>
+                  </button></a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script></script>
 
-<style>
+<style scoped>
 .card-container {
   display: flex;
   padding: 2rem 1rem;
+  width: 300px;
 }
 .card-container .cardww {
   flex: 1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
   background-color: #333;
   color: gold;
-  padding: 15px;
-  border-radius: 30px;
-  border: solid 2px black;
-
+  padding: 10px;
+  border-radius: 40px;
+  border: solid 4px black;
 }
 .cardww h2 {
   font-size: 22px;
 }
 .card-container .cardww:not(:first-child) {
-  margin-left: -6rem;
+  margin-left: -7rem;
 }
 .cardww img {
   padding: 35px;
   width: 200px;
+  height: 150px;
   display: block;
   margin: 0 auto;
 }
@@ -123,7 +166,6 @@
   outline: none;
   background-color: #111;
   box-shadow: 0 5px 50px gold;
-
 }
 .card-container .cardww:hover ~ .cardww,
 .card-container .cardww:focus ~ .cardww {
@@ -161,9 +203,8 @@
   }
 }
 
-
 .button_container {
-	position: relative;
+  position: relative;
   left: 0;
   right: 0;
   top: 10%;
@@ -181,17 +222,19 @@
   color: gold;
   font-weight: 700;
   font-size: 15px;
-  background-color: #222;
+  background-color: #111;
   padding: 10px 20px;
   margin: 0 auto;
-  box-shadow: 0 5px 15px rgba(0,0,0,20.20);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 20.2);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50px;
 }
 
 .btn span {
-  position: relative; 
+  position: relative;
   z-index: 0;
 }
-
 
 .btn:hover {
   content: "";
@@ -200,8 +243,5 @@
   top: 0;
   background: gold;
   color: black;
-  -webkit-transition: all 1.5s ease-in-out;
-  transition: all 1.5s ease-in-out;
-
 }
 </style>
