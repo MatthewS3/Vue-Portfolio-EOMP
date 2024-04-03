@@ -1,7 +1,10 @@
 <template>
   <div id="home">
-    <div class="box7"></div>
     <div class="fade-in-text">
+      <img
+        src="https://i.postimg.cc/DzpBrj7M/1000025647-removebg-preview-2.png"
+        alt="imageME"
+      />
       <div class="waviy">
         <span style="--i: 1">M</span>
         <span style="--i: 2">a</span>
@@ -28,20 +31,19 @@
         <span style="--i: 22">l</span>
         <span style="--i: 23">i</span>
         <span style="--i: 24">o</span>
-      </div>
-      <div class="text">ASPIRING</div>
-      <div class="text">
-        <span>Web & Software Developer</span>
-      </div>
-      <section class="Sec1">
         <div class="ease-in">
+          <div class="text">ASPIRING</div>
+          <div class="text">
+            <span>Web & Software Developer</span>
+          </div>
           <p class="ease-in">
-            I have a tremendous passion for Web designing as well as interactive, and
-            responsive websites and i am fulfilling a dream of mine to become a Web
-            Developer.
+            "I have a tremendous passion for Web designing as well as
+            interactive, and responsive websites and i am fulfilling a dream of
+            mine to become a Developer"
           </p>
         </div>
-      </section>
+      </div>
+      <section class="Sec1"></section>
     </div>
   </div>
 </template>
@@ -55,29 +57,22 @@ export default {
 <style scoped>
 #home {
   height: 550px;
-  background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png);
-  display: flex;
-  justify-content: center;
-  padding: 30px;
+  /* background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png); */
 }
 
 .fade-in-text {
-  width: 600px;
   text-align: center;
   font-family: "Playfair Display", serif;
   animation: fadeIn 5s;
+  display: flex;
+  margin-left: 50px;
 }
-
-/* .Sec1 {
-  background-color: black;
-} */
 
 .waviy {
   position: relative;
-  /* -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2)); */
+  width: 700px;
   font-size: 60px;
-  /* background-color: rgba(0, 0, 0, 0.5);  */
-
+  margin-left: 50px;
 }
 .waviy span {
   font-family: "Playfair Display", serif;
@@ -100,25 +95,11 @@ export default {
   }
 }
 
-.box7 {
-  height: 400px;
-  width: 400px;
-  border: 5px transparent;
-  border-radius: 20px;
-  margin-left: -100px;
-  box-shadow: rgba(0, 0, 0, 0.3);
-  background-image: url(https://i.postimg.cc/DzpBrj7M/1000025647-removebg-preview-2.png);
-  animation-delay: 5s;
-  animation: fadeIn 8s;
-}
-
 .ease-in {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 20px;
   animation: color-change 10s infinite;
-  background-color: rgba(0, 0, 0, 0.5); 
-  border-radius: 0 50px;
 }
 
 @keyframes color-change {
@@ -140,54 +121,80 @@ export default {
 }
 
 .text {
-  display:inline-block;
-  overflow:hidden;
+  display: inline-block;
+  overflow: hidden;
   color: gold;
-  font-size: 28px;
-
+  font-size: 20px;
 }
 
-.text:first-of-type { 
+.text:first-of-type {
   animation: showup 7s infinite;
 }
 
 .text:last-of-type {
-  width:0px;
+  width: 0px;
   animation: reveal 7s infinite;
 }
 
 .text:last-of-type span {
-  margin-left:-355px;
+  margin-left: -355px;
   animation: slidein 7s infinite;
 }
 
 @keyframes showup {
-    0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes slidein {
-    0% { margin-left:-800px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
 }
 
 @keyframes reveal {
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:355px;}
-    80% {opacity:1;}
-    100% {opacity:0;width:355px;}
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 355px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 355px;
+  }
 }
 
-
 p {
-  font-size:12px;
-  color:#999;
-  margin-top:100px;
-
+  font-size: 12px;
+  color: #999;
+  margin-top: 100px;
 }
 </style>

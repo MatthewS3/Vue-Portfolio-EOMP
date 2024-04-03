@@ -1,6 +1,6 @@
 <template>
   <h1>My Skills:</h1>
-  <h1>My Education:</h1>
+    <h1>My Education:</h1>
   <div class="container">
     <div class="card">
       <div class="content">
@@ -57,9 +57,9 @@
       <div class="content">
         <h2>Jan - Dec 2022</h2>
         <p>
-          During the year of 2022 for a temperary period was handling a small fishing
+          During the year of 2022 for a temporary period was handling a small fishing
           entrepreneur handle their employees payroll while he was under staffed. While
-          doing this i was gaining alot of experience in the finance field.
+          doing this i was gaining a lot of experience in the finance field.
         </p>
         <a href="#">Payroll Administrator</a>
       </div>
@@ -87,9 +87,11 @@
   </div>
 </template>
 
-<script></script>
+<script>
 
-<style>
+</script>
+
+<style scoped>
 .container {
   position: relative;
   display: flex;
@@ -203,4 +205,5 @@
   text-decoration: none;
   font-weight: 500;
 }
+
 </style>
