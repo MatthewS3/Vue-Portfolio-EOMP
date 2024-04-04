@@ -132,12 +132,12 @@
 
 <style scoped>
 .card-container {
-  display: flex;;
+  display: flex;
   padding: 2rem 2rem;
   width: auto;
 }
 
-.card-container .cardww {
+.cardww {
   flex: 1;
   transition: all 0.4s ease-in-out;
   background-color: #333;
@@ -149,10 +149,10 @@
 .cardww h2 {
   font-size: 22px;
 }
-.card-container .cardww:not(:first-child) {
+.cardww:not(:first-child) {
   margin-left: -7rem;
 }
-.cardww img {
+ img {
   padding: 35px;
   width: 200px;
   height: 150px;
@@ -171,7 +171,7 @@
   transform: translateX(2.5rem);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 780px) {
   #demo {
     margin-top: 0px;
   }
@@ -241,5 +241,26 @@
   top: 0;
   background: gold;
   color: black;
+}
+
+@media (max-width: 780px) {
+  .card-container {
+    display: grid;
+    padding: 0rem 0rem;
+    flex-direction: column;
+    width: auto;
+  }
+  .cardww {
+    flex: 1;
+    transition: all 0.4s ease-in-out;
+    background-color: #333;
+    color: gold;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid 4px black;
+  }
+  .cardww h2 {
+    font-size: 10px;
+  }
 }
 </style>

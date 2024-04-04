@@ -230,7 +230,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr) !important;
 }
 
 .card {
@@ -250,7 +250,7 @@
 }
 .card .card-image img {
   height: 433px;
-  width: 372px;
+  width: 440px;
   object-fit: cover;
   transition: all 1s cubic-bezier(1, -0.28, 0.66, 0.48);
 }
@@ -399,8 +399,8 @@
 
 @media only screen and (min-width: 500px) {
   .grid {
-    margin-left: -20px;
-    margin-right: -20px;
+    /* margin-left: -20px;
+    margin-right: -20px; */
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -408,15 +408,16 @@
     margin: 20px;
   }
 }
-@media only screen and (min-width: 900px) {
-  .container6 {
+@media only screen and (max-width: 900px) {
+  /* .container6 {
     margin: 80px auto;
     max-width: 1200px;
     width: calc(100% - 160px);
-  }
+  } */
 
   .grid {
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 }
 </style>

@@ -119,7 +119,8 @@
   align-items: center;
   justify-content: center;
   height: 320px;
-  margin: 40px;
+  /* margin: 40px; */
+  margin-bottom: 20px;
   background: #444;
   border: 3px solid gold;
   border-radius: 40px;
@@ -240,7 +241,7 @@
 }
 
  /* Responsive styles */
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 780px) {
       .container {
         flex-direction: column;
         align-items: center;

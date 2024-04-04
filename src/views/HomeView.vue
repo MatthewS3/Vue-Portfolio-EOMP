@@ -1,12 +1,13 @@
 <template>
   <br />
   <br />
+  <br>
   <div id="Home">
     <div class="fade-in-text">
-      <img
+      <!-- <img
         src="https://i.postimg.cc/DzpBrj7M/1000025647-removebg-preview-2.png"
         alt="imageME"
-      />
+      /> -->
       <div class="waviy">
         <span style="--i: 1">M</span>
         <span style="--i: 2">a</span>
@@ -68,7 +69,7 @@ export default {
   position: relative;
   width: 700px;
   font-size: 60px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 .waviy span {
   font-family: "Playfair Display", serif;
@@ -214,6 +215,44 @@ p {
     opacity: 1;
     transform: scale(1);
   }
+}
+
+@media (max-width: 780px){
+  .text:last-of-type {
+  width: 100px;
+  animation: reveal 7s 1;
+  height: 100px !important;
+  overflow: hidden
+}
+
+.ease-in {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  animation: color-change 10s 1;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 255px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 255px;
+  }
+}
+
 }
 
 /* Responsive styles */
