@@ -1,6 +1,7 @@
 <template>
-  <div class="Contact">
+  <div id="Contact">
     <h1>Contact Me</h1>
+    <br>
     <section class="contact-page-sec">
       <div class="container">
         <div class="row">
@@ -11,8 +12,8 @@
                   <i class="fas fa-map-marked"></i>
                 </div>
                 <div class="contact-info-text">
-                  <h2>location</h2>
-                  <span> 89 Gladiola Road, Lavender Hill </span>
+                  <h1>location</h1>
+                  <span> Lavender Hill </span>
                   <span>Cape Town , South Africa</span>
                 </div>
               </div>
@@ -25,7 +26,7 @@
                   <i class="fas fa-envelope"></i>
                 </div>
                 <div class="contact-info-text">
-                  <h2>E-mail & Cell</h2>
+                  <h1>E-mail & Cell</h1>
                   <span>mtthwswain@gmail.com</span>
                   <span>(079) 318 2409 </span>
                 </div>
@@ -39,9 +40,9 @@
                   <i class="fas fa-clock"></i>
                 </div>
                 <div class="contact-info-text">
-                  <h2>Availibilty</h2>
-                  <span>Mon - Fri 9:00 am - 5.00 pm</span>
-                  <span>Sat & Sun 10.00 pm - 2.00 pm</span>
+                  <h1>Availability</h1>
+                  <span>Mon - Fri 9:00 am - 5:00 pm</span>
+                  <span>Sat & Sun 9:00 pm - 5:00 pm</span>
                 </div>
               </div>
             </div>
@@ -163,8 +164,7 @@ export default {
 <style scoped>
 
 .contact-info {
-  display: inline-block;
-  width: 100%;
+  display: flex;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -177,18 +177,15 @@ export default {
   width: 500px;
   padding: 100px 10px;
 }
-.contact-page-sec .contact-page-form h2 {
-  color: #071c34;
-  text-transform: capitalize;
-  font-size: 22px;
-  font-weight: 700;
-}
+
 .contact-page-form .col-md-6.col-sm-6.col-xs-12 {
   padding-left: 0;
 }
+
 .contact-page-form.contact-form input {
   margin-bottom: 5px;
 }
+
 .contact-page-form.contact-form textarea {
   height: 110px;
 }
@@ -199,12 +196,12 @@ export default {
 }
 .contact-info-icon i {
   font-size: 48px;
-  color: #fda40b;
+  color: gold;
 }
 .contact-info-text p {
   margin-bottom: 0px;
 }
-.contact-info-text h2 {
+.contact-info-text h1 {
   color: black;
   font-size: 22px;
   text-transform: capitalize;
@@ -223,19 +220,19 @@ export default {
   border: 2px solid #111;
   margin-bottom: 20px;
   padding: 12px 16px;
-  width: 300px;
+  width: 200px;
   border-radius: 40px;
 }
 
 .contact-page-form .message-input {
   display: inline-block;
-  width: 300px;
+  width: 200px;
   padding-left: 0;
 }
 .single-input-field textarea {
   background: #ddd none repeat scroll 0 0;
   border: 2px solid #000;
-  width: 100%;
+  width: 200px;
   height: 120px;
   padding: 12px 16px;
   border-radius: 20px;

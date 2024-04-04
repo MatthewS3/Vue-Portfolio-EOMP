@@ -1,5 +1,5 @@
 <template>
-  <div class="About">
+  <div id="About">
     <h1>About Me</h1>
     <div class="container1">
       <div class="row">
@@ -17,6 +17,8 @@
         </div>
       </div>
     </div>
+    <br>
+    <br>
     <div class="caart">
       <div class="card25">
         <div class="content">
@@ -83,6 +85,7 @@
   width: auto;
   height: 610px;
   background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png);
+  background-attachment: fixed;
   display: flex;
   border-radius: 70px;
 }
@@ -97,10 +100,10 @@
 
 .right-side .about-img {
   position: absolute;
-  top: 780px;
+  top: 685px;
   left: 1000px;
   width: 300px; /* Set your desired initial width */
-  animation: enlarge 5s infinite alternate ; /* Animation properties */
+  animation: enlarge 5s infinite alternate; /* Animation properties */
 }
 
 @keyframes enlarge {
@@ -193,7 +196,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1100px;
+  width: auto;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   padding: 32px;
   overflow: hidden;
@@ -201,11 +204,6 @@
   background: #212121;
   border: 4px solid Gold;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.caart {
-  margin-left: 160px;
-  margin-top: 100px;
 }
 
 .content .heading {
@@ -222,6 +220,27 @@
 .card25:hover {
   box-shadow: 0 5px 50px gold;
   border-color: gold;
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
+
+
+/* Media Query for mobile devices */
+@media only screen and (max-width: 360px) {
+  .left-side,
+  .right-side {
+    width: 100%; /* Each side takes full width on mobile */
+  }
+
+  .about-img {
+    display: none; /* Hide the about image on mobile */
+  }
+  .typing-demo  {
+    max-width: 100%; 
+    font-size: 32px;
+    margin-left: -140px;
+  }
+
+}
+
+
 </style>
