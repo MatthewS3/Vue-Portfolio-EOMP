@@ -1,8 +1,11 @@
 <template>
   <nav id="NAV">
-    <a href="/">Home</a> | <a href="#About">About</a> |
-    <a href="#Resume">Resume & Skills</a> | <a href="#Projects">Projects</a> |
-    <a href="#Testimonials">Testimonials</a> | <a href="#Contact">Contact</a> |
+    <a href="/">Home</a> |
+     <a href="#About">About</a> |
+    <a href="#Resume">Resume & Skills</a> |
+    <a href="#Projects">Projects</a> |
+    <a href="#Testimonials">Peer Reviews</a> |
+    <a href="#Contact">Contact</a>
   </nav>
 </template>
 
@@ -16,12 +19,12 @@ export default {};
   top: 0; /* Position it at the top of the viewport */
   width: 100%; /* Full width */
   background-color: gold; /* Example background color */
-  padding: 10px; /* Add some padding for spacing */
+  /* Add some padding for spacing */
   z-index: 1000; /* Ensure it's on top of other content */
 }
 
 #NAV a {
-  margin-right: 10px; /* Add some spacing between links */
+  /* Add some spacing between links */
   text-decoration: none; /* Remove underline */
   color: #000; /* Link color */
 }
@@ -33,6 +36,11 @@ export default {};
     position: absolute;
     top: 15px;
     left: 15px;
+  }
+
+  #NAV {
+    width: 100% !important;
+    font-size: 10px !important;
   }
 }
 </style>

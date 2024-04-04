@@ -5,50 +5,6 @@
     <section class="contact-page-sec">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <div class="contact-info">
-              <div class="contact-info-item">
-                <div class="contact-info-icon">
-                  <i class="fas fa-map-marked"></i>
-                </div>
-                <div class="contact-info-text">
-                  <h1>location</h1>
-                  <span> Lavender Hill </span>
-                  <span>Cape Town , South Africa</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="contact-info">
-              <div class="contact-info-item">
-                <div class="contact-info-icon">
-                  <i class="fas fa-envelope"></i>
-                </div>
-                <div class="contact-info-text">
-                  <h1>E-mail & Cell</h1>
-                  <span>mtthwswain@gmail.com</span>
-                  <span>(079) 318 2409 </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="contact-info">
-              <div class="contact-info-item">
-                <div class="contact-info-icon">
-                  <i class="fas fa-clock"></i>
-                </div>
-                <div class="contact-info-text">
-                  <h1>Availability</h1>
-                  <span>Mon - Fri 9:00 am - 5:00 pm</span>
-                  <span>Sat & Sun 9:00 pm - 5:00 pm</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
           <div class="col-md-8">
             <div class="contact-page-form">
               <form
@@ -109,7 +65,7 @@
             <div class="contact-page-map">
               <iframe
                 src="https://www.google.com/maps/embed/v1/place?q=Lavender+Hill,+Cape+Town,+South+Africa&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-                width="310"
+                width="800"
                 height="400"
                 frameborder="0"
                 style="border: 0"
@@ -174,8 +130,8 @@ export default {
 .contact-info-item {
   background: gold;
   border-radius: 50px;
-  width: 500px;
-  padding: 100px 10px;
+  width: 200px;
+  padding: 50px 50px;
 }
 
 .contact-page-form .col-md-6.col-sm-6.col-xs-12 {
@@ -192,7 +148,7 @@ export default {
 .contact-page-form.contact-form input[type="submit"] {
   background: black;
   width: 150px;
-  border-color: blsck;
+  border-color: black;
 }
 .contact-info-icon i {
   font-size: 48px;
@@ -220,25 +176,26 @@ export default {
   border: 2px solid #111;
   margin-bottom: 20px;
   padding: 12px 16px;
-  width: 200px;
+  width: 500px;
   border-radius: 40px;
 }
 
 .contact-page-form .message-input {
   display: inline-block;
-  width: 200px;
+  width: 600px;
   padding-left: 0;
 }
 .single-input-field textarea {
   background: #ddd none repeat scroll 0 0;
   border: 2px solid #000;
-  width: 200px;
+  width: 500px;
   height: 120px;
   padding: 12px 16px;
   border-radius: 20px;
 }
 .single-input-fieldsbtn button[type="submit"] {
   background: #111 none repeat scroll 0 0;
+  border-radius: 50px;
   color: gold;
   display: inline-block;
   font-weight: 600;
@@ -247,11 +204,11 @@ export default {
   width: 150px;
   margin-top: 20px;
   font-size: 16px;
+  transition: all 0.7s ease-in-out 0s;
 }
 .single-input-fieldsbtn button[type="submit"]:hover {
   background: gold;
   color: black;
-  transition: all 0.7s ease-in-out 0s;
   border-color: #071c34;
   cursor: pointer;
 }

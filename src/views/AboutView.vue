@@ -6,13 +6,13 @@
         <div class="left-side">
           <div class="wrapper">
             <div class="typing-demo">
-              Hi I'm <span class="name">Matthew Swain...</span>
+              <h1 class="name"> <span>Hi I'm</span> Matthew Swain...</h1>
             </div>
-          </div>
-        </div>
-        <div class="right-side">
+            <div class="right-side">
           <div class="about-img">
             <img src="https://i.postimg.cc/Kjr4KPD1/1000025645.jpg" />
+          </div>
+        </div>
           </div>
         </div>
       </div>
@@ -81,30 +81,41 @@
 <style scope>
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
+.About{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 .container1 {
-  width: auto;
-  height: 610px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png);
   background-attachment: fixed;
-  display: flex;
-  border-radius: 70px;
+  background-position: center;
+  /* border-radius: 70px; */
 }
+
+/* .row{
+  display: flex;
+  justify-content: center;
+} */
 
 .right-side {
-  display: flex;
-  float: left;
   width: 50%;
-  padding: 20px;
-  height: 300px;
+  /* padding: 20px; */
+  /* height: 50%; */
 }
 
-.right-side .about-img {
+/* .right-side .about-img {
   position: absolute;
   top: 685px;
   left: 1000px;
-  width: 300px; /* Set your desired initial width */
-  animation: enlarge 5s infinite alternate; /* Animation properties */
-}
+  width: 300px; 
+  animation: enlarge 5s infinite alternate; 
+} */
 
 @keyframes enlarge {
   0% {
@@ -115,18 +126,19 @@
   }
 }
 
-.about-img::before {
+/* .about-img::before {
   position: absolute;
   content: "";
   right: -10px;
   border: 10px solid gold;
   width: 100%;
   height: 490px;
-}
+} */
 
 .about-img img {
-  height: 500px;
-  width: 100%;
+  object-fit: contain;
+  height: 430px;
+  width: 430px;
 }
 
 .about-me {
@@ -136,31 +148,28 @@
 
 .name {
   color: gold;
-}
-
-.left-side {
-  display: flex;
-  margin-top: 30px;
-  float: left;
-  width: 600px;
-  padding: 60px;
-  height: 400px;
-}
-
-.wrapper {
-  height: 400px;
-  display: grid;
-  place-items: center;
-}
-
-.typing-demo {
-  width: 510px;
+  width: 100%;
   animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: "Playfair Display", serif;
-  font-size: 3em;
+  font-family: "Playfair Display", serif; 
+}
+
+.name span {
+  color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  display: flex;
+}
+
+
+.typing-demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
 }
 
 @keyframes typing {
@@ -221,6 +230,21 @@
   box-shadow: 0 5px 50px gold;
   border-color: gold;
   transform: scale(0.9);
+}
+
+@media (max-width: 770px) {
+  .About{
+    font-size: 1em !important;
+  }
+  .typing-demo, .name{
+    font-size: 1.9em;
+  }
+}
+
+@media (max-width: 780px) {
+  .name{
+    font-size: 1em;
+  }
 }
 
 
