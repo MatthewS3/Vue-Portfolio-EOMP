@@ -1,5 +1,7 @@
 <template>
-  <div id="home">
+  <br />
+  <br />
+  <div id="Home">
     <div class="fade-in-text">
       <img
         src="https://i.postimg.cc/DzpBrj7M/1000025647-removebg-preview-2.png"
@@ -36,14 +38,13 @@
           <div class="text">
             <span>Web & Software Developer</span>
           </div>
-          <p class="ease-in">
-            "I have a tremendous passion for Web designing as well as
-            interactive, and responsive websites and i am fulfilling a dream of
-            mine to become a Developer"
-          </p>
         </div>
+        <p class="ease-in">
+          "I have a tremendous passion for Web designing as well as
+          interactive, and responsive websites and i am fulfilling a dream of
+          mine to become a Developer"
+        </p>
       </div>
-      <section class="Sec1"></section>
     </div>
   </div>
 </template>
@@ -55,17 +56,12 @@ export default {
 </script>
 
 <style scoped>
-#home {
-  height: 550px;
-  /* background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png); */
-}
 
 .fade-in-text {
-  text-align: center;
+  justify-content: center;
   font-family: "Playfair Display", serif;
   animation: fadeIn 5s;
   display: flex;
-  margin-left: 50px;
 }
 
 .waviy {
@@ -197,4 +193,37 @@ p {
   color: #999;
   margin-top: 100px;
 }
+
+/* <<=======MEDIA QUERIES======>> */
+
+@keyframes wave-animation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+      .fade-in-text {
+        padding: 0px;
+      }
+
+      .waviy {
+        width: 100%; /* Adjust the width */
+      }
+    }
 </style>

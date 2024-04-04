@@ -1,5 +1,5 @@
 <template>
-  <div class="Projects">
+  <div id="Projects">
     <h1>My Projects</h1>
     <section class="wwww">
       <div class="container">
@@ -16,7 +16,6 @@
                   src="https://i.postimg.cc/d1XycDkN/Screenshot-2024-01-12-083000.png"
                   width="100%"
                 />
-                <div class="button_container">
                   <a href="https://takealittle-ecommerce-website.netlify.app/"
                     ><button class="btn">
                       <span>Host Link</span>
@@ -27,7 +26,6 @@
                       <span>GitHub</span>
                     </button></a
                   >
-                </div>
               </div>
               <div class="cardww" tabindex="0">
                 <h2>
@@ -72,7 +70,7 @@
                 >
               </div>
               <div class="cardww" tabindex="0">
-                <h2>Js Calculator:</h2>
+                <h2>Js <br> Calculator:</h2>
                 <img
                   src="https://i.postimg.cc/90qr5qk8/Screenshot-2024-01-12-093532.png"
                   width="100%"
@@ -89,7 +87,7 @@
                 >
               </div>
               <div class="cardww" tabindex="0">
-                <h2>Interest Rate Calculator:</h2>
+                <h2>Interest Rate <br> Calculator:</h2>
                 <img
                   src="https://i.postimg.cc/wMqYVZmQ/Screenshot-2024-01-12-094645.png"
                   width="100%"
@@ -106,7 +104,7 @@
                 >
               </div>
               <div class="cardww" tabindex="0">
-                <h2>YouTube Cloned Website:</h2>
+                <h2>YouTube <br> Cloned Website:</h2>
                 <img
                   src="https://i.postimg.cc/vTtYrLxV/Screenshot-2024-01-12-094317.png"
                   width="100%"
@@ -134,10 +132,11 @@
 
 <style scoped>
 .card-container {
-  display: flex;
-  padding: 2rem 1rem;
-  width: 300px;
+  display: flex;;
+  padding: 2rem 2rem;
+  width: auto;
 }
+
 .card-container .cardww {
   flex: 1;
   transition: all 0.4s ease-in-out;
@@ -220,7 +219,6 @@
   overflow: hidden;
   position: relative;
   color: gold;
-  font-weight: 700;
   font-size: 15px;
   background-color: #111;
   padding: 10px 20px;
