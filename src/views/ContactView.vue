@@ -1,76 +1,38 @@
 <template>
   <div id="Contact">
     <h1>Contact Me</h1>
-    <br>
     <section class="contact-page-sec">
       <div class="container">
         <div class="row">
           <div class="col-md-8">
             <div class="contact-page-form">
-              <form
-                @submit.prevent="submitForm"
-                method="post"
-                action="https://formspree.io/f/xleqdjjr"
-              >
+              <form @submit.prevent="submitForm" method="post" action="https://formspree.io/f/xleqdjjr">
                 <div class="row">
                   <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="single-input-field">
-                      <input
-                        type="text"
-                        placeholder="Your Name"
-                        name="name"
-                        v-model="formData.name"
-                        required
-                      />
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Your Name" name="name" v-model="formData.name" required />
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="single-input-field">
-                      <input
-                        type="email"
-                        placeholder="E-mail"
-                        name="email"
-                        v-model="formData.email"
-                        required
-                      />
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="E-mail" name="email" v-model="formData.email" required />
                     </div>
                   </div>
-                  <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="single-input-field">
-                      <input
-                        type="text"
-                        placeholder="Phone Number"
-                        name="phone"
-                        v-model="formData.message"
-                        required
-                      />
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Phone Number" name="phone" v-model="formData.phone" required />
                     </div>
                   </div>
-                  <div class="col-md-12 message-input">
-                    <div class="single-input-field">
-                      <textarea
-                        placeholder="Write Your Message"
-                        name="message"
-                      ></textarea>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea class="form-control" rows="5" placeholder="Write Your Message" name="message"></textarea>
                     </div>
                   </div>
-                  <div class="single-input-fieldsbtn">
-                    <button type="submit">Send</button>
+                  <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary">Send</button>
                   </div>
                 </div>
               </form>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="contact-page-map">
-              <iframe
-                src="https://www.google.com/maps/embed/v1/place?q=Lavender+Hill,+Cape+Town,+South+Africa&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-                width="800"
-                height="400"
-                frameborder="0"
-                style="border: 0"
-                allowfullscreen
-              ></iframe>
             </div>
           </div>
         </div>
@@ -118,6 +80,13 @@ export default {
 </script>
 
 <style scoped>
+
+#Contact {
+  background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png);
+  background-attachment: fixed;
+  background-position: center;
+  border-radius: 50px;
+}
 
 .contact-info {
   display: flex;
@@ -176,7 +145,7 @@ export default {
   border: 2px solid #111;
   margin-bottom: 20px;
   padding: 12px 16px;
-  width: 500px;
+  width: 200px;
   border-radius: 40px;
 }
 
@@ -223,10 +192,6 @@ export default {
   margin-top: 0px;
 }
 
-.contact-page-map {
-  margin-top: 40px;
-  margin-left: 25px;
-}
 .contact-page-form form {
   padding: 20px 15px 0;
 }

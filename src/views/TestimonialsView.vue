@@ -32,7 +32,7 @@
           <div class="tgl-view">
             <div class="card-image">
               <img
-                src="https://i.postimg.cc/vBW9LVSC/20240110-121622.jpg"
+                src="https://cdn-images.imagevenue.com/64/91/ce/ME17ZTFB_o.png"
                 alt="tamlin"
               />
             </div>
@@ -56,7 +56,7 @@
           <div class="tgl-view">
             <div class="card-image">
               <img
-                src="https://i.postimg.cc/P59Jvwyt/20231118-123519.jpg"
+                src="https://cdn-images.imagevenue.com/e8/18/b0/ME17ZTAM_o.jpg"
                 alt="aakeefah"
               />
             </div>
@@ -78,7 +78,7 @@
           <div class="tgl-view">
             <div class="card-image">
               <img
-                src="https://i.postimg.cc/TPnxZ91y/Clipped-image-20240111-083818-1.png"
+                src="https://cdn-images.imagevenue.com/52/17/b8/ME17ZTAL_o.png"
                 alt="JNR"
               />
             </div>
@@ -126,11 +126,11 @@
           <div class="tgl-view">
             <div class="card-image">
               <img
-                src="https://i.postimg.cc/qqTBjGL8/profile-portfolio.jpg"
-                alt="rezaar"
+                src="https://cdn-images.imagevenue.com/92/91/b0/ME17ZTAO_o.jpg"
+                alt="Caela"
               />
             </div>
-            <h2 class="card-title">Rezaar Osman</h2>
+            <h2 class="card-title">Caela Morgan Ward</h2>
             <p class="card-detail">
               Matthew's passion for the IT industry shines through in every
               aspect of his work. His diligence and professional attitude
@@ -203,15 +203,17 @@
           <div class="tgl-view">
             <div class="card-image">
               <img
-                src="https://i.postimg.cc/gj8CBFJJ/20231104-135832.jpg"
-                alt="aneeqa"
+                src="https://cdn-images.imagevenue.com/bf/fc/ef/ME17ZTDA_o.png"
+                alt="Mara"
               />
             </div>
             <h2 class="card-title">Aneeqa Louw</h2>
             <p class="card-detail">
               Matthew is a great colleague of mine. He's outgoing, open-minded
-              and fun to be around. I haven't known him that long but I can see
-              he is a problem solving whizz and has great potential in any role.
+              and fun to be around. He is a problem solving whizz and is has
+              extraordinary skills when it comes to Frontend Developing and
+              known as CSS-Jesus to our colleagues and has promising potential
+              in any role he is places in.
             </p>
           </div>
         </div>
@@ -226,23 +228,29 @@
 .container6 {
   margin: 40px;
   width: calc(100% - 80px);
+  display: flex;
+  justify-content: center;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr) !important;
+  grid-gap: 20px;
 }
 
 .card {
   height: 500px;
   margin: 0 0 20px;
   position: relative;
+  background-color: #111;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .card .card-image {
   background: #222;
   display: inline-flex;
   overflow: hidden;
-  height: 400px;
   width: auto;
   transition: all 1s cubic-bezier(1, -0.28, 0.66, 0.48);
   position: relative;
@@ -418,6 +426,12 @@
   .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
 </style>

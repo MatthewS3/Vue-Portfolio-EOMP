@@ -6,6 +6,7 @@
   <ProjectsView/>
   <TestimonialsView/>
   <ContactView/>
+  
   <Footer/>
 </template>
 <script>
@@ -38,6 +39,9 @@ export default {
 body {
   background-color: #111;
 }
+*{
+  scroll-behavior: smooth;
+}
 
 #app {
   font-family: "Playfair Display", serif;
@@ -46,6 +50,9 @@ body {
   text-align: center;
   color: #ddd;
   animation: fadeIn 5s;
+}
+::-webkit-scrollbar{
+  display: none;
 }
 
 nav {

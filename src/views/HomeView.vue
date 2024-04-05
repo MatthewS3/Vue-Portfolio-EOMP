@@ -1,7 +1,7 @@
 <template>
   <br />
   <br />
-  <br>
+  <br/>
   <div id="Home">
     <div class="fade-in-text">
       <!-- <img
@@ -48,6 +48,8 @@
       </div>
     </div>
   </div>
+  <br>
+  <br>
 </template>
 
 <script>
@@ -57,7 +59,15 @@ export default {
 </script>
 
 <style scoped>
-
+#Home {
+  margin-top: 6rem;
+  background-image: url(https://cdn-images.imagevenue.com/91/7f/d1/ME17ZVA4_o.png);
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  border-radius: 50px;
+}
 .fade-in-text {
   justify-content: center;
   font-family: "Playfair Display", serif;
