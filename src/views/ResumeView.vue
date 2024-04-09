@@ -1,6 +1,64 @@
 <template>
+  <br />
   <div id="Resume">
     <h1>My Skills:</h1>
+    <div class="skills-container1">
+      <div class="skill">
+        <i class="fa-brands fa-html5"></i>
+        <span>HTML5</span>
+      </div>
+      <div class="skill">
+        <i class="fa-brands fa-css3-alt"></i>
+        <span>CSS3</span>
+      </div>
+      <div class="skill">
+        <i class="fa-brands fa-bootstrap"></i>
+        <span>Bootstrap</span>
+      </div>
+      <div class="skill">
+        <i class="fa-brands fa-js"></i>
+        <span>JavaScript</span>
+      </div>
+    </div>
+    <div class="skills-container2">
+      <div class="skill">
+        <i class="fa-brands fa-vuejs"></i>
+        <span>Vue.js</span>
+      </div>
+      <div class="skill">
+        <i class="fa-solid fa-database"></i>
+        <span>Mysql</span>
+      </div>
+      <div class="skill">
+        <i class="fa-brands fa-figma"></i>
+        <span>Figma</span>
+      </div>
+    </div>
+    <br /><br />
+
+    <button class="btnCV">
+      <a href="#" class="yes" target="_blank"> Download CV </a>
+    </button>
+    <br /><br />
+    <h1>Soft Skills</h1>
+    <div class="soft-skills">
+      <div class="skill">
+        <i class="fa-solid fa-paintbrush"></i>
+        <span>Creativity</span>
+      </div>
+      <div class="skill">
+        <i class="fa-solid fa-business-time"></i>
+        <span>Time Management</span>
+      </div>
+      <div class="skill">
+        <i class="fa-solid fa-people-arrows"></i>
+        <span>Communication</span>
+      </div>
+      <div class="skill">
+        <i class="fa-solid fa-infinity"></i>
+        <span>Adaptability</span>
+      </div>
+    </div>
     <h1>My Education:</h1>
     <div class="container">
       <div class="card">
@@ -92,12 +150,83 @@
 <script></script>
 
 <style scoped>
+#resume {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png); */
+}
+.skills-container1,
+.skills-container2,
+.soft-skills {
+  font-size: 130px;
+  color: gold;
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill .fa-html5,
+.fa-css3-alt,
+.fa-bootstrap,
+.fa-js,
+.fa-vuejs,
+.fa-database,
+.fa-figma {
+  transition: 0.5s ease all;
+}
+.skill .fa-html5:hover {
+  transform: scale(1.2);
+  color: tomato;
+}
+.skill .fa-css3-alt:hover {
+  transform: scale(1.2);
+  color: teal;
+}
+.skill .fa-bootstrap:hover {
+  transform: scale(1.2);
+  color: purple;
+}
+.skill .fa-js:hover {
+  transform: scale(1.2);
+  color: yellow;
+}
+.skill .fa-vuejs:hover {
+  transform: scale(1.2);
+  color: forestgreen;
+}
+.skill .fa-database:hover {
+  transform: scale(1.2);
+  color: aquamarine;
+}
+.skill .fa-figma:hover {
+  transform: scale(1.2);
+  color: rebeccapurple;
+}
+
+.skills-container1 {
+  justify-content: space-evenly;
+}
+
+.skills-container2 {
+  justify-content: space-evenly;
+}
+
+.skill {
+  text-align: center;
+}
+
+.skill span {
+  font-size: 14px;
+  display: block;
 }
 
 .container .card {
@@ -240,16 +369,16 @@
   font-weight: 500;
 }
 
- /* Responsive styles */
- @media only screen and (max-width: 780px) {
-      .container {
-        flex-direction: column;
-        align-items: center;
-      }
+/* Responsive styles */
+@media only screen and (max-width: 780px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-      .card,
-      .card1 {
-        width: 100%;
-      }
-    }
+  .card,
+  .card1 {
+    width: 100%;
+  }
+}
 </style>

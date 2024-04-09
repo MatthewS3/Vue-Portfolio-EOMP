@@ -4,15 +4,11 @@
     <div class="container1">
       <div class="row">
         <div class="left-side">
-          <div class="wrapper">
             <div class="typing-demo">
               <h1 class="name"> <span>Hi I'm</span> Matthew Swain...</h1>
             </div>
-            <div class="right-side">
           <div class="about-img">
             <img src="https://i.postimg.cc/Kjr4KPD1/1000025645.jpg" />
-          </div>
-        </div>
           </div>
         </div>
       </div>
@@ -24,6 +20,7 @@
         <div class="content">
           <p class="heading">The Story Of Matthew :</p>
           <p class="about-me">
+            Born in the well known area of Lavender Hill, Cape Town, on July 3rd 2002. <br><br>
             Against all odds, I have emerged as resilient and tenacious
             individual who has navigated through numerous challenges on the path
             to becoming a web/software developer.
@@ -95,6 +92,8 @@
   background-image: url(https://i.postimg.cc/HsBNKSnJ/Screenshot-2024-01-08-144001.png);
   background-attachment: fixed;
   background-position: center;
+  border-radius: 50px;
+
   /* border-radius: 70px; */
 }
 
@@ -103,19 +102,9 @@
   justify-content: center;
 } */
 
-.right-side {
-  width: 50%;
-  /* padding: 20px; */
-  /* height: 50%; */
-}
-
-/* .right-side .about-img {
-  position: absolute;
-  top: 685px;
-  left: 1000px;
-  width: 300px; 
+.about-img {
   animation: enlarge 5s infinite alternate; 
-} */
+}
 
 @keyframes enlarge {
   0% {
@@ -137,8 +126,10 @@
 
 .about-img img {
   object-fit: contain;
-  height: 430px;
-  width: 430px;
+  height: 420px;
+  width: 250px;
+  border: 5px solid gold;
+  border-radius: 50px;
 }
 
 .about-me {
@@ -169,7 +160,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
+  min-height: 20vh;
+  /* width: 240px; */
 }
 
 @keyframes typing {
@@ -210,7 +202,6 @@
   padding: 32px;
   overflow: hidden;
   border-radius: 70px;
-  background: #212121;
   border: 4px solid Gold;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -249,10 +240,10 @@
 
 
 /* Media Query for mobile devices */
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 426px) {
   .left-side,
   .right-side {
-    width: 100%; /* Each side takes full width on mobile */
+    margin-left: 10px; /* Each side takes full width on mobile */
   }
 
   .about-img {
@@ -261,10 +252,33 @@
   .typing-demo  {
     max-width: 100%; 
     font-size: 32px;
-    margin-left: -140px;
+    margin-left: -10px;
   }
 
 }
 
+.btnCV {
+  display: inline-block;
+  background-color: gold;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+}
 
+.btnCV:hover {
+  background-color: black;
+  transform: scale(1.5);
+  color: gold;
+}
+
+.btnCV a {
+  color: inherit;
+  text-decoration: none;
+}
 </style>

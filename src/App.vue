@@ -6,6 +6,7 @@
   <ProjectsView/>
   <TestimonialsView/>
   <ContactView/>
+  
   <Footer/>
 </template>
 <script>
@@ -38,6 +39,9 @@ export default {
 body {
   background-color: #111;
 }
+*{
+  scroll-behavior: smooth;
+}
 
 #app {
   font-family: "Playfair Display", serif;
@@ -47,17 +51,20 @@ body {
   color: #ddd;
   animation: fadeIn 5s;
 }
+::-webkit-scrollbar{
+  display: none;
+}
 
 nav {
   padding: 30px;
   font-size: 20px;
   text-decoration: none;
   letter-spacing: 5px;
+  transition: 1.5s;
 }
 
 nav a:hover {
-  color: gold;
-  transition: 1.5s;
+  color: #ddd;
 }
 
 nav a {
