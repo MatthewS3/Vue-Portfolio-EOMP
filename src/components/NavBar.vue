@@ -8,7 +8,7 @@
   <div class="navbar-links" id="navbar-links">
     <a href="/">Home</a>
     <a href="#About">About</a>
-    <a href="#Resume">Resume & Skills</a>
+    <a href="#Resume">Experience & Skills</a>
     <a href="#Projects">Projects</a>
     <a href="#Testimonials">Peer Reviews</a>
     <a href="#Contact">Contact</a>

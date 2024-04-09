@@ -60,11 +60,11 @@ nav {
   font-size: 20px;
   text-decoration: none;
   letter-spacing: 5px;
+  transition: 1.5s;
 }
 
 nav a:hover {
-  color: gold;
-  transition: 1.5s;
+  color: #ddd;
 }
 
 nav a {

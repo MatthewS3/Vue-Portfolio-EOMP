@@ -1,6 +1,6 @@
 <template>
   <div id="Testimonials">
-    <h1>Testimonials</h1>
+    <h1>Peer Reviews</h1>
     <div class="container6">
       <div class="grid">
         <div class="card">
@@ -78,7 +78,7 @@
           <div class="tgl-view">
             <div class="card-image">
               <img
-                src="https://cdn-images.imagevenue.com/52/17/b8/ME17ZTAL_o.png"
+                src="https://cdn-images.imagevenue.com/f5/c7/1d/ME1819ZE_o.jpg"
                 alt="JNR"
               />
             </div>
@@ -207,13 +207,13 @@
                 alt="Mara"
               />
             </div>
-            <h2 class="card-title">Aneeqa Louw</h2>
+            <h2 class="card-title">Ammara Hoosen</h2>
             <p class="card-detail">
               Matthew is a great colleague of mine. He's outgoing, open-minded
               and fun to be around. He is a problem solving whizz and is has
-              extraordinary skills when it comes to Frontend Developing and
-              known as CSS-Jesus to our colleagues and has promising potential
-              in any role he is places in.
+              extraordinary skills when it comes to Frontend Developing and he
+              is known as CSS-Jesus to our colleagues and has promising
+              potential in any role he is places in.
             </p>
           </div>
         </div>
